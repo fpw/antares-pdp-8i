@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metaGraph _id='0' manualContainer='true'>
+  <graph>
+    <graphStorable _id='1'>
+      <model>
+        <graph _id='2' type='digital'>
+          <elements>
+            <tunnel _id='3' id='1' delay='0' name='!(CLK AC CLEAR)' bitWidth='1' global='true'/>
+            <power _id='4' id='2' delay='1' bitWidth='1'/>
+            <digitalNet _id='5' id='3' delay='0'>
+              <ports>
+                <netPortRef _id='6' verticeId='4' portId='1'/>
+                <netPortRef _id='7' verticeId='3' portId='1'/>
+              </ports>
+            </digitalNet>
+          </elements>
+        </graph>
+      </model>
+      <view>
+        <graphView _id='8'>
+          <netViews>
+            <netView _id='9' modelId='5' style='line'/>
+          </netViews>
+          <components>
+            <tunnelView _id='10' id='1' rot='0' filled='true' stroked='true' modelId='3' x='-84.0' y='35.0' flowDir='in'/>
+            <powerView _id='11' id='2' rot='270' filled='true' stroked='true' modelId='4' x='-112.0' y='7.0'/>
+            <digitalEdgeView _id='12' id='3' filled='true' stroked='true' modelId='5' layout='ortho' orig='11' origPort='1' origPortOutput='true' dest='10' destPort='1' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='-112.0,-7.0 -112.0,35.0 -70.0,35.0'/>
+              </shape>
+            </digitalEdgeView>
+          </components>
+        </graphView>
+      </view>
+    </graphStorable>
+  </graph>
+  <container>
+    <containerDrawing _id='13'>
+      <components>
+        <rectangle _id='14' id='1' style='figure' filled='true' stroked='true' x='140.0' y='140.0' w='56.0' h='56.0'/>
+        <originIndicator _id='15' id='2'>
+          <location>
+            <point x='140.0' y='140.0'/>
+          </location>
+        </originIndicator>
+        <label _id='16' id='3' rot='0'>
+          <text>
+            <translation lang='en' text='NoKW8I'/>
+          </text>
+          <location>
+            <point x='168.0' y='168.0'/>
+          </location>
+        </label>
+      </components>
+      <model>
+        <subGraphVertice _id='17' id='0' delay='0' uuid='1d70f59d-b126-4006-9422-3572e1b508c7'>
+          <name>
+            <translation lang='en' text='NoKW8I'/>
+          </name>
+          <ports/>
+        </subGraphVertice>
+      </model>
+    </containerDrawing>
+  </container>
+</metaGraph>

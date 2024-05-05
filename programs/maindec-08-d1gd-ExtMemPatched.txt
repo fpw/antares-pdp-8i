@@ -1,0 +1,23 @@
+Change from ISZ LOOP (2027 = 0x417 / 17 04) to SKP (7410 = 0xF08 / 08 0F):
+
+0222
+0250
+0276
+0324
+0362
+0440
+0502
+0544
+0642
+0746
+1043
+1242
+1427
+1512
+2243
+
+Change from ISZ LBTSTC to 7410:
+1671
+
+
+1561=7402 to HLT when done instead of looping everything again

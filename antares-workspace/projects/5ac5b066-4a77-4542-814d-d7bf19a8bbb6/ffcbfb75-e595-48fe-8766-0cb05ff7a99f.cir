@@ -1,0 +1,3053 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metaGraph _id='0' manualContainer='false'>
+  <graph>
+    <graphStorable _id='1'>
+      <model>
+        <graph _id='2' type='digital'>
+          <elements>
+            <nandGate _id='3' id='1' delay='15' inputCount='3'/>
+            <tunnel _id='4' id='4' delay='0' name='!(RESTART)' bitWidth='1' global='true'/>
+            <tunnel _id='5' id='5' delay='0' name='MFTS1 (1)' bitWidth='1' global='true'/>
+            <tunnel _id='6' id='6' delay='0' name='KEY ST+EX+DP' bitWidth='1' global='true'/>
+            <digitalNet _id='7' id='7' delay='0'>
+              <ports>
+                <netPortRef _id='8' verticeId='5' portId='1'/>
+                <netPortRef _id='9' verticeId='3' portId='2'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='10' id='8' delay='0'>
+              <ports>
+                <netPortRef _id='11' verticeId='4' portId='1'/>
+                <netPortRef _id='12' verticeId='3' portId='1'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='13' id='9' delay='0'>
+              <ports>
+                <netPortRef _id='14' verticeId='6' portId='1'/>
+                <netPortRef _id='15' verticeId='3' portId='3'/>
+              </ports>
+            </digitalNet>
+            <nandGate _id='16' id='10' delay='15' inputCount='3'/>
+            <tunnel _id='17' id='11' delay='0' name='TS2 (1)' bitWidth='1' global='true'/>
+            <tunnel _id='18' id='12' delay='0' name='JMS' bitWidth='1' global='true'/>
+            <tunnel _id='19' id='13' delay='0' name='B EXECUTE (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='20' id='14' delay='0'>
+              <ports>
+                <netPortRef _id='21' verticeId='19' portId='1'/>
+                <netPortRef _id='22' verticeId='16' portId='2'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='23' id='15' delay='0'>
+              <ports>
+                <netPortRef _id='24' verticeId='17' portId='1'/>
+                <netPortRef _id='25' verticeId='16' portId='1'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='26' id='16' delay='0'>
+              <ports>
+                <netPortRef _id='27' verticeId='18' portId='1'/>
+                <netPortRef _id='28' verticeId='16' portId='3'/>
+              </ports>
+            </digitalNet>
+            <nandGate _id='29' id='17' delay='15' inputCount='2'/>
+            <orGate _id='30' id='18' delay='15' inputCount='3' negatedInputs='1,2,3'/>
+            <digitalNet _id='31' id='19' delay='0'>
+              <ports>
+                <netPortRef _id='32' verticeId='30' portId='4'/>
+                <netPortRef _id='33' verticeId='29' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='34' id='20' delay='0' name='TS4 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='35' id='21' delay='0'>
+              <ports>
+                <netPortRef _id='36' verticeId='34' portId='1'/>
+                <netPortRef _id='37' verticeId='29' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='38' id='22' delay='0' name='!(F SET)' bitWidth='1' global='true'/>
+            <tunnel _id='39' id='23' delay='0' name='!(TT SET)' bitWidth='1' global='true'/>
+            <tunnel _id='40' id='24' delay='0' name='!(EAE E SET)' bitWidth='1' global='true'/>
+            <digitalNet _id='41' id='25' delay='0'>
+              <ports>
+                <netPortRef _id='42' verticeId='38' portId='1'/>
+                <netPortRef _id='43' verticeId='30' portId='1'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='44' id='26' delay='0'>
+              <ports>
+                <netPortRef _id='45' verticeId='39' portId='1'/>
+                <netPortRef _id='46' verticeId='30' portId='3'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='47' id='27' delay='0'>
+              <ports>
+                <netPortRef _id='48' verticeId='40' portId='1'/>
+                <netPortRef _id='49' verticeId='30' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='50' id='28' delay='0' name='!(PC ENABLE)' bitWidth='1' global='true'/>
+            <tunnel _id='51' id='30' delay='0' name='!(INT SKIP ENABLE)' bitWidth='1' global='true'/>
+            <digitalNet _id='52' id='31' delay='0'>
+              <ports>
+                <netPortRef _id='53' verticeId='16' portId='4'/>
+                <netPortRef _id='54' verticeId='55' portId='3'/>
+                <netPortRef _id='56' verticeId='51' portId='1'/>
+              </ports>
+            </digitalNet>
+            <orGate _id='55' id='32' delay='15' inputCount='5' negatedInputs='1,2,3,4,5'/>
+            <digitalNet _id='57' id='33' delay='0'>
+              <ports>
+                <netPortRef _id='58' verticeId='50' portId='1'/>
+                <netPortRef _id='59' verticeId='55' portId='4'/>
+                <netPortRef _id='60' verticeId='29' portId='3'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='61' id='34' delay='0' name='!(TT CARRY INSERT)' bitWidth='1' global='true'/>
+            <digitalNet _id='62' id='36' delay='0'>
+              <ports>
+                <netPortRef _id='63' verticeId='3' portId='4'/>
+                <netPortRef _id='64' verticeId='55' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='65' id='37' delay='0' name='!(IO PC ENABLE)' bitWidth='1' global='true'/>
+            <digitalNet _id='66' id='38' delay='0'>
+              <ports>
+                <netPortRef _id='67' verticeId='65' portId='1'/>
+                <netPortRef _id='68' verticeId='55' portId='1'/>
+                <netPortRef _id='69' verticeId='70' portId='3'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='71' id='39' delay='0' name='IPC ENABLE' bitWidth='1' global='true'/>
+            <digitalNet _id='72' id='40' delay='0'>
+              <ports>
+                <netPortRef _id='73' verticeId='71' portId='1'/>
+                <netPortRef _id='74' verticeId='55' portId='6'/>
+              </ports>
+            </digitalNet>
+            <nandGate _id='70' id='41' delay='15' inputCount='2'/>
+            <tunnel _id='75' id='42' delay='0' name='I\/O ON (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='76' id='43' delay='0'>
+              <ports>
+                <netPortRef _id='77' verticeId='75' portId='1'/>
+                <netPortRef _id='78' verticeId='70' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='79' id='44' delay='0' name='!(IOP 1+2+4)' bitWidth='1' global='true'>
+              <desc>
+                <translation lang='en' text='Schematic calls this IOP 1,2,4 (0)'/>
+              </desc>
+            </tunnel>
+            <digitalNet _id='80' id='45' delay='0'>
+              <ports>
+                <netPortRef _id='81' verticeId='79' portId='1'/>
+                <netPortRef _id='82' verticeId='70' portId='1'/>
+                <netPortRef _id='83' verticeId='84' portId='2'/>
+              </ports>
+            </digitalNet>
+            <orGate _id='85' id='47' delay='15' inputCount='3' negatedInputs='1,2,3'/>
+            <tunnel _id='86' id='48' delay='0' name='IOP 1(0)' bitWidth='1' global='true'/>
+            <digitalNet _id='87' id='49' delay='0'>
+              <ports>
+                <netPortRef _id='88' verticeId='86' portId='1'/>
+                <netPortRef _id='89' verticeId='85' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='90' id='51' delay='0' name='IOP 2(0)' bitWidth='1' global='true'/>
+            <digitalNet _id='91' id='52' delay='0'>
+              <ports>
+                <netPortRef _id='92' verticeId='90' portId='1'/>
+                <netPortRef _id='93' verticeId='85' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='94' id='53' delay='0' name='IOP 4(0)' bitWidth='1' global='true'/>
+            <digitalNet _id='95' id='54' delay='0'>
+              <ports>
+                <netPortRef _id='96' verticeId='94' portId='1'/>
+                <netPortRef _id='97' verticeId='85' portId='3'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='98' id='55' delay='0'>
+              <ports>
+                <netPortRef _id='99' verticeId='85' portId='4'/>
+                <netPortRef _id='100' verticeId='84' portId='1'/>
+              </ports>
+            </digitalNet>
+            <notGate _id='84' id='56' delay='15'/>
+            <orGate _id='101' id='57' delay='15' inputCount='3' negatedInputs='1,2,3'/>
+            <tunnel _id='102' id='58' delay='0' name='!(IOP 1+2+4)' bitWidth='1' global='true'>
+              <desc>
+                <translation lang='en' text='Schematic calls this !(IOP 1+2+4 (0))'/>
+              </desc>
+            </tunnel>
+            <tunnel _id='103' id='59' delay='0' name='!(MEM EXT I\/O ENABLE)' bitWidth='1' global='true'/>
+            <tunnel _id='104' id='60' delay='0' name='!(TT I\/O ENABLE)' bitWidth='1' global='true'/>
+            <digitalNet _id='105' id='61' delay='0'>
+              <ports>
+                <netPortRef _id='106' verticeId='102' portId='1'/>
+                <netPortRef _id='107' verticeId='101' portId='1'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='108' id='62' delay='0'>
+              <ports>
+                <netPortRef _id='109' verticeId='103' portId='1'/>
+                <netPortRef _id='110' verticeId='101' portId='2'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='111' id='63' delay='0'>
+              <ports>
+                <netPortRef _id='112' verticeId='104' portId='1'/>
+                <netPortRef _id='113' verticeId='101' portId='3'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='114' id='64' delay='0' name='I\/O ENABLE' bitWidth='1' global='true'/>
+            <digitalNet _id='115' id='65' delay='0'>
+              <ports>
+                <netPortRef _id='116' verticeId='114' portId='1'/>
+                <netPortRef _id='117' verticeId='101' portId='4'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='118' id='67' delay='0' name='TS2 (1)' bitWidth='1' global='true'/>
+            <notGate _id='119' id='68' delay='15'/>
+            <nandGate _id='120' id='69' delay='15' inputCount='3'/>
+            <digitalNet _id='121' id='70' delay='0'>
+              <ports>
+                <netPortRef _id='122' verticeId='120' portId='4'/>
+                <netPortRef _id='123' verticeId='119' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='124' id='71' delay='0' name='BREAK (1)' bitWidth='1' global='true'/>
+            <tunnel _id='125' id='72' delay='0' name='DATA IN' bitWidth='1' global='true'/>
+            <digitalNet _id='126' id='73' delay='0'>
+              <ports>
+                <netPortRef _id='127' verticeId='118' portId='1'/>
+                <netPortRef _id='128' verticeId='120' portId='1'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='129' id='74' delay='0'>
+              <ports>
+                <netPortRef _id='130' verticeId='124' portId='1'/>
+                <netPortRef _id='131' verticeId='120' portId='2'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='132' id='75' delay='0'>
+              <ports>
+                <netPortRef _id='133' verticeId='125' portId='1'/>
+                <netPortRef _id='134' verticeId='120' portId='3'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='135' id='76' delay='0' name='DATA ENABLE' bitWidth='1' global='true'/>
+            <digitalNet _id='136' id='77' delay='0'>
+              <ports>
+                <netPortRef _id='137' verticeId='135' portId='1'/>
+                <netPortRef _id='138' verticeId='119' portId='2'/>
+              </ports>
+            </digitalNet>
+            <orGate _id='139' id='78' delay='15' inputCount='3' negatedInputs='1,2,3'/>
+            <notGate _id='140' id='81' delay='15'/>
+            <tunnel _id='141' id='82' delay='0' name='DATA ADD ENABLE' bitWidth='1' global='true'/>
+            <digitalNet _id='142' id='83' delay='0'>
+              <ports>
+                <netPortRef _id='143' verticeId='141' portId='1'/>
+                <netPortRef _id='144' verticeId='140' portId='2'/>
+              </ports>
+            </digitalNet>
+            <nandGate _id='145' id='84' delay='15' inputCount='2'/>
+            <digitalNet _id='146' id='85' delay='0'>
+              <ports>
+                <netPortRef _id='147' verticeId='145' portId='3'/>
+                <netPortRef _id='148' verticeId='140' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='149' id='86' delay='0' name='TS4 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='150' id='87' delay='0'>
+              <ports>
+                <netPortRef _id='151' verticeId='149' portId='1'/>
+                <netPortRef _id='152' verticeId='145' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='153' id='88' delay='0' name='BREAK OK' bitWidth='1' global='true'/>
+            <digitalNet _id='154' id='89' delay='0'>
+              <ports>
+                <netPortRef _id='155' verticeId='153' portId='1'/>
+                <netPortRef _id='156' verticeId='145' portId='2'/>
+              </ports>
+            </digitalNet>
+            <nandGate _id='157' id='90' delay='15' inputCount='2'/>
+            <tunnel _id='158' id='91' delay='0' name='KEY DP' bitWidth='1' global='true'/>
+            <digitalNet _id='159' id='92' delay='0'>
+              <ports>
+                <netPortRef _id='160' verticeId='158' portId='1'/>
+                <netPortRef _id='161' verticeId='157' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='162' id='93' delay='0' name='MFTS3' bitWidth='1' global='true'/>
+            <digitalNet _id='163' id='94' delay='0'>
+              <ports>
+                <netPortRef _id='164' verticeId='162' portId='1'/>
+                <netPortRef _id='165' verticeId='157' portId='2'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='166' id='95' delay='0'>
+              <ports>
+                <netPortRef _id='167' verticeId='157' portId='3'/>
+                <netPortRef _id='168' verticeId='139' portId='1'/>
+              </ports>
+            </digitalNet>
+            <nandGate _id='169' id='96' delay='15' inputCount='3'/>
+            <tunnel _id='170' id='97' delay='0' name='OP2' bitWidth='1' global='true'/>
+            <digitalNet _id='171' id='98' delay='0'>
+              <ports>
+                <netPortRef _id='172' verticeId='170' portId='1'/>
+                <netPortRef _id='173' verticeId='169' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='174' id='99' delay='0' name='MB09 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='175' id='100' delay='0'>
+              <ports>
+                <netPortRef _id='176' verticeId='174' portId='1'/>
+                <netPortRef _id='177' verticeId='169' portId='3'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='178' id='101' delay='0' name='MB11 (0)' bitWidth='1' global='true'/>
+            <digitalNet _id='179' id='102' delay='0'>
+              <ports>
+                <netPortRef _id='180' verticeId='178' portId='1'/>
+                <netPortRef _id='181' verticeId='169' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='182' id='103' delay='0' name='!(OSR)' bitWidth='1' global='true'/>
+            <digitalNet _id='183' id='104' delay='0'>
+              <ports>
+                <netPortRef _id='184' verticeId='182' portId='1'/>
+                <netPortRef _id='185' verticeId='169' portId='4'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='186' id='105' delay='0' name='!(OSR\*UF(0))' bitWidth='1' global='true'/>
+            <digitalNet _id='187' id='106' delay='0'>
+              <ports>
+                <netPortRef _id='188' verticeId='186' portId='1'/>
+                <netPortRef _id='189' verticeId='139' portId='2'/>
+              </ports>
+            </digitalNet>
+            <nandGate _id='190' id='107' delay='15' inputCount='2'/>
+            <digitalNet _id='191' id='109' delay='0'>
+              <ports>
+                <netPortRef _id='192' verticeId='193' portId='1'/>
+                <netPortRef _id='194' verticeId='190' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='193' id='110' delay='0' name='KEY LA' bitWidth='1' global='true'/>
+            <tunnel _id='195' id='111' delay='0' name='MFTS0' bitWidth='1' global='true'/>
+            <digitalNet _id='196' id='112' delay='0'>
+              <ports>
+                <netPortRef _id='197' verticeId='195' portId='1'/>
+                <netPortRef _id='198' verticeId='190' portId='2'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='199' id='113' delay='0'>
+              <ports>
+                <netPortRef _id='200' verticeId='190' portId='3'/>
+                <netPortRef _id='201' verticeId='139' portId='3'/>
+                <netPortRef _id='202' verticeId='203' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='204' id='114' delay='0' name='SR ENABLE' bitWidth='1' global='true'/>
+            <digitalNet _id='205' id='115' delay='0'>
+              <ports>
+                <netPortRef _id='206' verticeId='204' portId='1'/>
+                <netPortRef _id='207' verticeId='139' portId='4'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='203' id='116' delay='0' name='!(KEY LA\*MFTS0)' bitWidth='1' global='true'/>
+            <nandGate _id='208' id='117' delay='15' inputCount='2'/>
+            <tunnel _id='209' id='118' delay='0' name='OP1' bitWidth='1' global='true'/>
+            <digitalNet _id='210' id='119' delay='0'>
+              <ports>
+                <netPortRef _id='211' verticeId='209' portId='1'/>
+                <netPortRef _id='212' verticeId='208' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='213' id='120' delay='0' name='MB07 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='214' id='121' delay='0'>
+              <ports>
+                <netPortRef _id='215' verticeId='213' portId='1'/>
+                <netPortRef _id='216' verticeId='208' portId='2'/>
+              </ports>
+            </digitalNet>
+            <orGate _id='217' id='122' delay='15' inputCount='2' negatedInputs='1,2'/>
+            <digitalNet _id='218' id='123' delay='0'>
+              <ports>
+                <netPortRef _id='219' verticeId='208' portId='3'/>
+                <netPortRef _id='220' verticeId='217' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='221' id='124' delay='0' name='!(EAE !(AC) ENABLE)' bitWidth='1' global='true'/>
+            <digitalNet _id='222' id='125' delay='0'>
+              <ports>
+                <netPortRef _id='223' verticeId='221' portId='1'/>
+                <netPortRef _id='224' verticeId='217' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='225' id='126' delay='0' name='!L ENABLE' bitWidth='1' global='true'/>
+            <digitalNet _id='226' id='127' delay='0'>
+              <ports>
+                <netPortRef _id='227' verticeId='225' portId='1'/>
+                <netPortRef _id='228' verticeId='217' portId='3'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='229' id='128' delay='15' inputCount='2'/>
+            <tunnel _id='230' id='129' delay='0' name='MFTS2 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='231' id='130' delay='0'>
+              <ports>
+                <netPortRef _id='232' verticeId='230' portId='1'/>
+                <netPortRef _id='233' verticeId='229' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='234' id='131' delay='0' name='KEY ST' bitWidth='1' global='true'/>
+            <digitalNet _id='235' id='132' delay='0'>
+              <ports>
+                <netPortRef _id='236' verticeId='234' portId='1'/>
+                <netPortRef _id='237' verticeId='229' portId='2'/>
+              </ports>
+            </digitalNet>
+            <norGate _id='238' id='133' delay='15' inputCount='5'/>
+            <digitalNet _id='239' id='134' delay='0'>
+              <ports>
+                <netPortRef _id='240' verticeId='229' portId='3'/>
+                <netPortRef _id='241' verticeId='238' portId='1'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='242' id='135' delay='15' inputCount='3'/>
+            <digitalNet _id='243' id='136' delay='0'>
+              <ports>
+                <netPortRef _id='244' verticeId='242' portId='4'/>
+                <netPortRef _id='245' verticeId='238' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='246' id='137' delay='0' name='OP1' bitWidth='1' global='true'/>
+            <digitalNet _id='247' id='138' delay='0'>
+              <ports>
+                <netPortRef _id='248' verticeId='246' portId='1'/>
+                <netPortRef _id='249' verticeId='242' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='250' id='139' delay='0' name='MB05 (0)' bitWidth='1' global='true'/>
+            <digitalNet _id='251' id='140' delay='0'>
+              <ports>
+                <netPortRef _id='252' verticeId='250' portId='1'/>
+                <netPortRef _id='253' verticeId='242' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='254' id='141' delay='0' name='MB07 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='255' id='142' delay='0'>
+              <ports>
+                <netPortRef _id='256' verticeId='254' portId='1'/>
+                <netPortRef _id='257' verticeId='242' portId='3'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='258' id='144' delay='0'>
+              <ports>
+                <netPortRef _id='259' verticeId='238' portId='3'/>
+                <netPortRef _id='260' verticeId='261' portId='3'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='262' id='145' delay='0' name='TT L DISABLE' bitWidth='1' global='true'/>
+            <digitalNet _id='263' id='146' delay='0'>
+              <ports>
+                <netPortRef _id='264' verticeId='262' portId='1'/>
+                <netPortRef _id='265' verticeId='261' portId='2'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='266' id='147' delay='15' inputCount='3'/>
+            <tunnel _id='267' id='148' delay='0' name='MB05 (1)' bitWidth='1' global='true'/>
+            <tunnel _id='268' id='149' delay='0' name='OP1' bitWidth='1' global='true'/>
+            <tunnel _id='269' id='150' delay='0' name='MB07 (0)' bitWidth='1' global='true'/>
+            <digitalNet _id='270' id='151' delay='0'>
+              <ports>
+                <netPortRef _id='271' verticeId='269' portId='1'/>
+                <netPortRef _id='272' verticeId='266' portId='3'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='273' id='152' delay='0'>
+              <ports>
+                <netPortRef _id='274' verticeId='268' portId='1'/>
+                <netPortRef _id='275' verticeId='266' portId='2'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='276' id='153' delay='0'>
+              <ports>
+                <netPortRef _id='277' verticeId='267' portId='1'/>
+                <netPortRef _id='278' verticeId='266' portId='1'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='279' id='154' delay='0'>
+              <ports>
+                <netPortRef _id='280' verticeId='266' portId='4'/>
+                <netPortRef _id='281' verticeId='238' portId='4'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='282' id='156' delay='0' name='EAE L DISABLE' bitWidth='1' global='true'/>
+            <digitalNet _id='283' id='157' delay='0'>
+              <ports>
+                <netPortRef _id='284' verticeId='282' portId='1'/>
+                <netPortRef _id='285' verticeId='286' portId='2'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='287' id='158' delay='0'>
+              <ports>
+                <netPortRef _id='288' verticeId='238' portId='5'/>
+                <netPortRef _id='289' verticeId='286' portId='3'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='290' id='159' delay='0' name='L ENABLE' bitWidth='1' global='true'/>
+            <digitalNet _id='291' id='160' delay='0'>
+              <ports>
+                <netPortRef _id='292' verticeId='290' portId='1'/>
+                <netPortRef _id='293' verticeId='238' portId='6'/>
+              </ports>
+            </digitalNet>
+            <nandGate _id='294' id='161' delay='15' inputCount='2'/>
+            <tunnel _id='295' id='162' delay='0' name='OP1' bitWidth='1' global='true'/>
+            <digitalNet _id='296' id='163' delay='0'>
+              <ports>
+                <netPortRef _id='297' verticeId='295' portId='1'/>
+                <netPortRef _id='298' verticeId='294' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='299' id='164' delay='0' name='MB06 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='300' id='165' delay='0'>
+              <ports>
+                <netPortRef _id='301' verticeId='299' portId='1'/>
+                <netPortRef _id='302' verticeId='294' portId='2'/>
+              </ports>
+            </digitalNet>
+            <orGate _id='303' id='166' delay='15' inputCount='2' negatedInputs='1,2'/>
+            <digitalNet _id='304' id='167' delay='0'>
+              <ports>
+                <netPortRef _id='305' verticeId='294' portId='3'/>
+                <netPortRef _id='306' verticeId='303' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='307' id='168' delay='0' name='!(EAE !(AC) ENABLE)' bitWidth='1' global='true'/>
+            <digitalNet _id='308' id='169' delay='0'>
+              <ports>
+                <netPortRef _id='309' verticeId='307' portId='1'/>
+                <netPortRef _id='310' verticeId='303' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='311' id='170' delay='0' name='!(AC) ENABLE' bitWidth='1' global='true'/>
+            <digitalNet _id='312' id='171' delay='0'>
+              <ports>
+                <netPortRef _id='313' verticeId='311' portId='1'/>
+                <netPortRef _id='314' verticeId='303' portId='3'/>
+              </ports>
+            </digitalNet>
+            <notGate _id='315' id='172' delay='15'/>
+            <tunnel _id='316' id='175' delay='0' name='!(DATA IN)' bitWidth='1' global='true'/>
+            <digitalNet _id='317' id='176' delay='0'>
+              <ports>
+                <netPortRef _id='318' verticeId='316' portId='1'/>
+                <netPortRef _id='319' verticeId='315' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='320' id='177' delay='0' name='DATA IN' bitWidth='1' global='true'/>
+            <digitalNet _id='321' id='178' delay='0'>
+              <ports>
+                <netPortRef _id='322' verticeId='315' portId='2'/>
+                <netPortRef _id='323' verticeId='320' portId='1'/>
+                <netPortRef _id='324' verticeId='325' portId='2'/>
+              </ports>
+            </digitalNet>
+            <notGate _id='326' id='179' delay='15'/>
+            <tunnel _id='327' id='180' delay='0' name='!(OSR)' bitWidth='1' global='true'/>
+            <digitalNet _id='328' id='181' delay='0'>
+              <ports>
+                <netPortRef _id='329' verticeId='327' portId='1'/>
+                <netPortRef _id='330' verticeId='326' portId='1'/>
+              </ports>
+            </digitalNet>
+            <nandGate _id='331' id='182' delay='15' inputCount='2'/>
+            <digitalNet _id='332' id='183' delay='0'>
+              <ports>
+                <netPortRef _id='333' verticeId='331' portId='1'/>
+                <netPortRef _id='334' verticeId='326' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='335' id='184' delay='0' name='UF (0)' bitWidth='1' global='true'/>
+            <digitalNet _id='336' id='185' delay='0'>
+              <ports>
+                <netPortRef _id='337' verticeId='335' portId='1'/>
+                <netPortRef _id='338' verticeId='331' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='339' id='186' delay='0' name='!(OSR\*UF(0))' bitWidth='1' global='true'/>
+            <digitalNet _id='340' id='187' delay='0'>
+              <ports>
+                <netPortRef _id='341' verticeId='339' portId='1'/>
+                <netPortRef _id='342' verticeId='331' portId='3'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='325' id='188' delay='15' inputCount='2'/>
+            <tunnel _id='343' id='189' delay='0' name='BREAK (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='344' id='190' delay='0'>
+              <ports>
+                <netPortRef _id='345' verticeId='343' portId='1'/>
+                <netPortRef _id='346' verticeId='325' portId='1'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='347' id='191' delay='15' inputCount='2'/>
+            <tunnel _id='348' id='192' delay='0' name='MFTS3' bitWidth='1' global='true'/>
+            <digitalNet _id='349' id='193' delay='0'>
+              <ports>
+                <netPortRef _id='350' verticeId='348' portId='1'/>
+                <netPortRef _id='351' verticeId='347' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='352' id='194' delay='0' name='KEY DP' bitWidth='1' global='true'/>
+            <digitalNet _id='353' id='195' delay='0'>
+              <ports>
+                <netPortRef _id='354' verticeId='352' portId='1'/>
+                <netPortRef _id='355' verticeId='347' portId='2'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='356' id='196' delay='15' inputCount='2'/>
+            <tunnel _id='357' id='197' delay='0' name='B EXECUTE (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='358' id='198' delay='0'>
+              <ports>
+                <netPortRef _id='359' verticeId='357' portId='1'/>
+                <netPortRef _id='360' verticeId='356' portId='1'/>
+                <netPortRef _id='361' verticeId='362' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='363' id='199' delay='0' name='JMS' bitWidth='1' global='true'/>
+            <digitalNet _id='364' id='200' delay='0'>
+              <ports>
+                <netPortRef _id='365' verticeId='363' portId='1'/>
+                <netPortRef _id='366' verticeId='356' portId='2'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='362' id='201' delay='15' inputCount='2'/>
+            <tunnel _id='367' id='202' delay='0' name='DCA' bitWidth='1' global='true'/>
+            <digitalNet _id='368' id='203' delay='0'>
+              <ports>
+                <netPortRef _id='369' verticeId='367' portId='1'/>
+                <netPortRef _id='370' verticeId='362' portId='1'/>
+              </ports>
+            </digitalNet>
+            <norGate _id='371' id='204' delay='15' inputCount='4'/>
+            <digitalNet _id='372' id='205' delay='0'>
+              <ports>
+                <netPortRef _id='373' verticeId='362' portId='3'/>
+                <netPortRef _id='374' verticeId='371' portId='1'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='375' id='206' delay='0'>
+              <ports>
+                <netPortRef _id='376' verticeId='356' portId='3'/>
+                <netPortRef _id='377' verticeId='371' portId='2'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='378' id='207' delay='0'>
+              <ports>
+                <netPortRef _id='379' verticeId='325' portId='3'/>
+                <netPortRef _id='380' verticeId='371' portId='3'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='381' id='208' delay='0'>
+              <ports>
+                <netPortRef _id='382' verticeId='347' portId='3'/>
+                <netPortRef _id='383' verticeId='371' portId='4'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='384' id='209' delay='15' inputCount='2'/>
+            <digitalNet _id='385' id='210' delay='0'>
+              <ports>
+                <netPortRef _id='386' verticeId='371' portId='5'/>
+                <netPortRef _id='387' verticeId='384' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='388' id='211' delay='0' name='TS2 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='389' id='212' delay='0'>
+              <ports>
+                <netPortRef _id='390' verticeId='388' portId='1'/>
+                <netPortRef _id='391' verticeId='384' portId='1'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='392' id='213' delay='15' inputCount='3'/>
+            <andGate _id='393' id='214' delay='15' inputCount='3'/>
+            <tunnel _id='394' id='216' delay='0' name='TS3 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='395' id='217' delay='0'>
+              <ports>
+                <netPortRef _id='396' verticeId='394' portId='1'/>
+                <netPortRef _id='397' verticeId='392' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='398' id='218' delay='0' name='DEFER (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='399' id='219' delay='0'>
+              <ports>
+                <netPortRef _id='400' verticeId='398' portId='1'/>
+                <netPortRef _id='401' verticeId='392' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='402' id='220' delay='0' name='JMP' bitWidth='1' global='true'/>
+            <digitalNet _id='403' id='221' delay='0'>
+              <ports>
+                <netPortRef _id='404' verticeId='402' portId='1'/>
+                <netPortRef _id='405' verticeId='392' portId='3'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='406' id='222' delay='0' name='!(JMP)' bitWidth='1' global='true'/>
+            <andGate _id='407' id='223' delay='15' inputCount='2'/>
+            <tunnel _id='408' id='228' delay='0' name='TS4 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='409' id='229' delay='0'>
+              <ports>
+                <netPortRef _id='410' verticeId='408' portId='1'/>
+                <netPortRef _id='411' verticeId='393' portId='1'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='412' id='230' delay='0'>
+              <ports>
+                <netPortRef _id='413' verticeId='406' portId='1'/>
+                <netPortRef _id='414' verticeId='393' portId='3'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='415' id='231' delay='0' name='DEFER (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='416' id='232' delay='0'>
+              <ports>
+                <netPortRef _id='417' verticeId='415' portId='1'/>
+                <netPortRef _id='418' verticeId='393' portId='2'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='419' id='233' delay='15' inputCount='2'/>
+            <tunnel _id='420' id='234' delay='0' name='TS4 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='421' id='235' delay='0'>
+              <ports>
+                <netPortRef _id='422' verticeId='420' portId='1'/>
+                <netPortRef _id='423' verticeId='419' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='424' id='236' delay='0' name='CURRENT ADDRESS (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='425' id='237' delay='0'>
+              <ports>
+                <netPortRef _id='426' verticeId='424' portId='1'/>
+                <netPortRef _id='427' verticeId='419' portId='2'/>
+              </ports>
+            </digitalNet>
+            <norGate _id='428' id='238' delay='15' inputCount='5'/>
+            <digitalNet _id='429' id='239' delay='0'>
+              <ports>
+                <netPortRef _id='430' verticeId='407' portId='3'/>
+                <netPortRef _id='431' verticeId='428' portId='3'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='432' id='240' delay='0'>
+              <ports>
+                <netPortRef _id='433' verticeId='392' portId='4'/>
+                <netPortRef _id='434' verticeId='428' portId='2'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='435' id='241' delay='0'>
+              <ports>
+                <netPortRef _id='436' verticeId='384' portId='3'/>
+                <netPortRef _id='437' verticeId='428' portId='1'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='438' id='242' delay='0'>
+              <ports>
+                <netPortRef _id='439' verticeId='393' portId='4'/>
+                <netPortRef _id='440' verticeId='428' portId='4'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='441' id='243' delay='0'>
+              <ports>
+                <netPortRef _id='442' verticeId='419' portId='3'/>
+                <netPortRef _id='443' verticeId='428' portId='5'/>
+              </ports>
+            </digitalNet>
+            <orGate _id='444' id='244' delay='15' inputCount='4' negatedInputs='1,2,3,4'/>
+            <digitalNet _id='445' id='245' delay='0'>
+              <ports>
+                <netPortRef _id='446' verticeId='428' portId='6'/>
+                <netPortRef _id='447' verticeId='444' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='448' id='246' delay='0' name='!(STORE)' bitWidth='1' global='true'/>
+            <digitalNet _id='449' id='247' delay='0'>
+              <ports>
+                <netPortRef _id='450' verticeId='448' portId='1'/>
+                <netPortRef _id='451' verticeId='444' portId='3'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='452' id='248' delay='0' name='!(EAE MEM ENABLE)' bitWidth='1' global='true'/>
+            <digitalNet _id='453' id='249' delay='0'>
+              <ports>
+                <netPortRef _id='454' verticeId='452' portId='1'/>
+                <netPortRef _id='455' verticeId='444' portId='4'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='456' id='250' delay='0' name='!(ADD)' bitWidth='1' global='true'/>
+            <digitalNet _id='457' id='251' delay='0'>
+              <ports>
+                <netPortRef _id='458' verticeId='456' portId='1'/>
+                <netPortRef _id='459' verticeId='444' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='460' id='252' delay='0' name='MEM ENABLE 0-4' bitWidth='1' global='true'/>
+            <nandGate _id='461' id='254' delay='15' inputCount='2'/>
+            <tunnel _id='462' id='255' delay='0' name='MEM ENABLE 0-4' bitWidth='1' global='true'/>
+            <digitalNet _id='463' id='256' delay='0'>
+              <ports>
+                <netPortRef _id='464' verticeId='462' portId='1'/>
+                <netPortRef _id='465' verticeId='461' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='466' id='257' delay='0' name='!(MEM INH 9-11)' bitWidth='1' global='true'/>
+            <digitalNet _id='467' id='258' delay='0'>
+              <ports>
+                <netPortRef _id='468' verticeId='466' portId='1'/>
+                <netPortRef _id='469' verticeId='461' portId='2'/>
+              </ports>
+            </digitalNet>
+            <orGate _id='470' id='259' delay='15' inputCount='4' negatedInputs='1,2,3,4'/>
+            <tunnel _id='471' id='261' delay='0' name='!(EAE MEM ENABLE)' bitWidth='1' global='true'/>
+            <tunnel _id='472' id='263' delay='0' name='MEM ENABLE 9-11' bitWidth='1' global='true'/>
+            <digitalNet _id='473' id='264' delay='0'>
+              <ports>
+                <netPortRef _id='474' verticeId='472' portId='1'/>
+                <netPortRef _id='475' verticeId='470' portId='5'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='476' id='265' delay='0'>
+              <ports>
+                <netPortRef _id='477' verticeId='471' portId='1'/>
+                <netPortRef _id='478' verticeId='470' portId='3'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='479' id='266' delay='0'>
+              <ports>
+                <netPortRef _id='480' verticeId='461' portId='3'/>
+                <netPortRef _id='481' verticeId='470' portId='4'/>
+              </ports>
+            </digitalNet>
+            <orGate _id='482' id='267' delay='15' inputCount='2' negatedInputs='1,2'/>
+            <tunnel _id='483' id='268' delay='0' name='!(D SET)' bitWidth='1' global='true'/>
+            <digitalNet _id='484' id='269' delay='0'>
+              <ports>
+                <netPortRef _id='485' verticeId='483' portId='1'/>
+                <netPortRef _id='486' verticeId='482' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='487' id='270' delay='0' name='!(E SET)' bitWidth='1' global='true'/>
+            <digitalNet _id='488' id='271' delay='0'>
+              <ports>
+                <netPortRef _id='489' verticeId='487' portId='1'/>
+                <netPortRef _id='490' verticeId='482' portId='2'/>
+              </ports>
+            </digitalNet>
+            <nandGate _id='491' id='272' delay='15' inputCount='4'/>
+            <nandGate _id='492' id='273' delay='15' inputCount='4'/>
+            <digitalNet _id='493' id='274' delay='0'>
+              <ports>
+                <netPortRef _id='494' verticeId='482' portId='3'/>
+                <netPortRef _id='495' verticeId='492' portId='2'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='496' id='276' delay='0'>
+              <ports>
+                <netPortRef _id='497' verticeId='492' portId='1'/>
+                <netPortRef _id='498' verticeId='499' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='500' id='277' delay='0' name='!(PC ENABLE)' bitWidth='1' global='true'/>
+            <digitalNet _id='501' id='278' delay='0'>
+              <ports>
+                <netPortRef _id='502' verticeId='500' portId='1'/>
+                <netPortRef _id='503' verticeId='492' portId='4'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='504' id='279' delay='0' name='!(INT OK)' bitWidth='1' global='true'/>
+            <digitalNet _id='505' id='280' delay='0'>
+              <ports>
+                <netPortRef _id='506' verticeId='504' portId='1'/>
+                <netPortRef _id='507' verticeId='492' portId='3'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='499' id='281' delay='0' name='TS4 (1)' bitWidth='1' global='true'/>
+            <tunnel _id='508' id='282' delay='0' name='TS3 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='509' id='283' delay='0'>
+              <ports>
+                <netPortRef _id='510' verticeId='508' portId='1'/>
+                <netPortRef _id='511' verticeId='491' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='512' id='284' delay='0' name='JMP' bitWidth='1' global='true'/>
+            <digitalNet _id='513' id='285' delay='0'>
+              <ports>
+                <netPortRef _id='514' verticeId='512' portId='1'/>
+                <netPortRef _id='515' verticeId='491' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='516' id='286' delay='0' name='MB03 (0)' bitWidth='1' global='true'/>
+            <digitalNet _id='517' id='287' delay='0'>
+              <ports>
+                <netPortRef _id='518' verticeId='516' portId='1'/>
+                <netPortRef _id='519' verticeId='491' portId='4'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='520' id='288' delay='0' name='B FETCH (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='521' id='289' delay='0'>
+              <ports>
+                <netPortRef _id='522' verticeId='520' portId='1'/>
+                <netPortRef _id='523' verticeId='491' portId='3'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='524' id='290' delay='0'>
+              <ports>
+                <netPortRef _id='525' verticeId='470' portId='2'/>
+                <netPortRef _id='526' verticeId='527' portId='2'/>
+                <netPortRef _id='528' verticeId='491' portId='5'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='529' id='291' delay='0'>
+              <ports>
+                <netPortRef _id='530' verticeId='492' portId='5'/>
+                <netPortRef _id='531' verticeId='527' portId='4'/>
+                <netPortRef _id='532' verticeId='470' portId='1'/>
+              </ports>
+            </digitalNet>
+            <notGate _id='533' id='292' delay='15'/>
+            <digitalNet _id='534' id='294' delay='0'>
+              <ports>
+                <netPortRef _id='535' verticeId='444' portId='5'/>
+                <netPortRef _id='536' verticeId='460' portId='1'/>
+                <netPortRef _id='537' verticeId='533' portId='1'/>
+              </ports>
+            </digitalNet>
+            <nandGate _id='538' id='295' delay='15' inputCount='3'/>
+            <digitalNet _id='539' id='296' delay='0'>
+              <ports>
+                <netPortRef _id='540' verticeId='533' portId='2'/>
+                <netPortRef _id='541' verticeId='538' portId='2'/>
+                <netPortRef _id='542' verticeId='527' portId='3'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='543' id='297' delay='0' name='MB04 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='544' id='298' delay='0'>
+              <ports>
+                <netPortRef _id='545' verticeId='543' portId='1'/>
+                <netPortRef _id='546' verticeId='538' portId='3'/>
+              </ports>
+            </digitalNet>
+            <orGate _id='527' id='299' delay='15' inputCount='4' negatedInputs='1,2,3,4'/>
+            <tunnel _id='547' id='300' delay='0' name='!(EAE MEM ENABLE)' bitWidth='1' global='true'/>
+            <digitalNet _id='548' id='301' delay='0'>
+              <ports>
+                <netPortRef _id='549' verticeId='547' portId='1'/>
+                <netPortRef _id='550' verticeId='527' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='551' id='302' delay='0' name='MEM ENABLE 5-8' bitWidth='1' global='true'/>
+            <digitalNet _id='552' id='303' delay='0'>
+              <ports>
+                <netPortRef _id='553' verticeId='551' portId='1'/>
+                <netPortRef _id='554' verticeId='527' portId='5'/>
+                <netPortRef _id='555' verticeId='538' portId='1'/>
+              </ports>
+            </digitalNet>
+            <orGate _id='556' id='304' delay='15' inputCount='2' negatedInputs='1,2'/>
+            <digitalNet _id='557' id='305' delay='0'>
+              <ports>
+                <netPortRef _id='558' verticeId='538' portId='4'/>
+                <netPortRef _id='559' verticeId='556' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='560' id='306' delay='0' name='MA ENABLE 0-4' bitWidth='1' global='true'/>
+            <digitalNet _id='561' id='307' delay='0'>
+              <ports>
+                <netPortRef _id='562' verticeId='560' portId='1'/>
+                <netPortRef _id='563' verticeId='556' portId='3'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='564' id='308' delay='15' inputCount='2'/>
+            <tunnel _id='565' id='309' delay='0' name='TS1 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='566' id='310' delay='0'>
+              <ports>
+                <netPortRef _id='567' verticeId='565' portId='1'/>
+                <netPortRef _id='568' verticeId='564' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='569' id='311' delay='0' name='PC INCREMENT' bitWidth='1' global='true'/>
+            <digitalNet _id='570' id='312' delay='0'>
+              <ports>
+                <netPortRef _id='571' verticeId='569' portId='1'/>
+                <netPortRef _id='572' verticeId='564' portId='2'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='573' id='313' delay='15' inputCount='2'/>
+            <tunnel _id='574' id='314' delay='0' name='MFTS2 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='575' id='315' delay='0'>
+              <ports>
+                <netPortRef _id='576' verticeId='574' portId='1'/>
+                <netPortRef _id='577' verticeId='573' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='578' id='316' delay='0' name='KEY EX+DP' bitWidth='1' global='true'/>
+            <digitalNet _id='579' id='317' delay='0'>
+              <ports>
+                <netPortRef _id='580' verticeId='578' portId='1'/>
+                <netPortRef _id='581' verticeId='573' portId='2'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='582' id='318' delay='15' inputCount='3'/>
+            <tunnel _id='583' id='319' delay='0' name='TS3 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='584' id='320' delay='0'>
+              <ports>
+                <netPortRef _id='585' verticeId='583' portId='1'/>
+                <netPortRef _id='586' verticeId='582' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='587' id='321' delay='0' name='B EXECUTE (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='588' id='322' delay='0'>
+              <ports>
+                <netPortRef _id='589' verticeId='587' portId='1'/>
+                <netPortRef _id='590' verticeId='582' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='591' id='323' delay='0' name='JMS' bitWidth='1' global='true'/>
+            <digitalNet _id='592' id='324' delay='0'>
+              <ports>
+                <netPortRef _id='593' verticeId='591' portId='1'/>
+                <netPortRef _id='594' verticeId='582' portId='3'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='595' id='325' delay='15' inputCount='2'/>
+            <tunnel _id='596' id='326' delay='0' name='TS4 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='597' id='327' delay='0'>
+              <ports>
+                <netPortRef _id='598' verticeId='596' portId='1'/>
+                <netPortRef _id='599' verticeId='595' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='600' id='328' delay='0' name='WORD COUNT (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='601' id='329' delay='0'>
+              <ports>
+                <netPortRef _id='602' verticeId='600' portId='1'/>
+                <netPortRef _id='603' verticeId='595' portId='2'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='604' id='334' delay='15' inputCount='2'/>
+            <norGate _id='605' id='335' delay='15' inputCount='5'/>
+            <digitalNet _id='606' id='336' delay='0'>
+              <ports>
+                <netPortRef _id='607' verticeId='582' portId='4'/>
+                <netPortRef _id='608' verticeId='605' portId='3'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='609' id='337' delay='0'>
+              <ports>
+                <netPortRef _id='610' verticeId='564' portId='3'/>
+                <netPortRef _id='611' verticeId='605' portId='1'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='612' id='338' delay='0'>
+              <ports>
+                <netPortRef _id='613' verticeId='573' portId='3'/>
+                <netPortRef _id='614' verticeId='605' portId='2'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='615' id='339' delay='0'>
+              <ports>
+                <netPortRef _id='616' verticeId='595' portId='3'/>
+                <netPortRef _id='617' verticeId='605' portId='4'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='618' id='340' delay='0'>
+              <ports>
+                <netPortRef _id='619' verticeId='604' portId='3'/>
+                <netPortRef _id='620' verticeId='605' portId='5'/>
+              </ports>
+            </digitalNet>
+            <notGate _id='621' id='341' delay='15'/>
+            <digitalNet _id='622' id='342' delay='0'>
+              <ports>
+                <netPortRef _id='623' verticeId='605' portId='6'/>
+                <netPortRef _id='624' verticeId='621' portId='1'/>
+                <netPortRef _id='625' verticeId='556' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='626' id='343' delay='0' name='MA ENABLE 5-11' bitWidth='1' global='true'/>
+            <digitalNet _id='627' id='344' delay='0'>
+              <ports>
+                <netPortRef _id='628' verticeId='626' portId='1'/>
+                <netPortRef _id='629' verticeId='621' portId='2'/>
+              </ports>
+            </digitalNet>
+            <notGate _id='630' id='345' delay='15'/>
+            <tunnel _id='631' id='346' delay='0' name='IPC ENABLE' bitWidth='1' global='true'/>
+            <digitalNet _id='632' id='347' delay='0'>
+              <ports>
+                <netPortRef _id='633' verticeId='631' portId='1'/>
+                <netPortRef _id='634' verticeId='630' portId='1'/>
+              </ports>
+            </digitalNet>
+            <notGate _id='635' id='348' delay='15'/>
+            <digitalNet _id='636' id='349' delay='0'>
+              <ports>
+                <netPortRef _id='637' verticeId='630' portId='2'/>
+                <netPortRef _id='638' verticeId='635' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='639' id='350' delay='0' name='PC ENABLE' bitWidth='1' global='true'/>
+            <digitalNet _id='640' id='351' delay='0'>
+              <ports>
+                <netPortRef _id='641' verticeId='639' portId='1'/>
+                <netPortRef _id='642' verticeId='635' portId='2'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='643' id='352' delay='15' inputCount='2'/>
+            <tunnel _id='644' id='353' delay='0' name='I\/O ENABLE' bitWidth='1' global='true'/>
+            <digitalNet _id='645' id='354' delay='0'>
+              <ports>
+                <netPortRef _id='646' verticeId='644' portId='1'/>
+                <netPortRef _id='647' verticeId='643' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='648' id='355' delay='0' name='!(AC CLEAR)' bitWidth='1' global='true'/>
+            <digitalNet _id='649' id='356' delay='0'>
+              <ports>
+                <netPortRef _id='650' verticeId='648' portId='1'/>
+                <netPortRef _id='651' verticeId='643' portId='2'/>
+                <netPortRef _id='652' verticeId='653' portId='2'/>
+              </ports>
+            </digitalNet>
+            <notGate _id='653' id='357' delay='15'/>
+            <tunnel _id='654' id='358' delay='0' name='AC CLEAR' bitWidth='1' global='true'/>
+            <digitalNet _id='655' id='359' delay='0'>
+              <ports>
+                <netPortRef _id='656' verticeId='654' portId='1'/>
+                <netPortRef _id='657' verticeId='653' portId='1'/>
+              </ports>
+            </digitalNet>
+            <notGate _id='658' id='360' delay='15'/>
+            <nandGate _id='659' id='361' delay='15' inputCount='4'/>
+            <digitalNet _id='660' id='362' delay='0'>
+              <ports>
+                <netPortRef _id='661' verticeId='659' portId='5'/>
+                <netPortRef _id='662' verticeId='658' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='663' id='363' delay='0' name='OPR' bitWidth='1' global='true'/>
+            <digitalNet _id='664' id='364' delay='0'>
+              <ports>
+                <netPortRef _id='665' verticeId='663' portId='1'/>
+                <netPortRef _id='666' verticeId='659' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='667' id='365' delay='0' name='TS3 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='668' id='366' delay='0'>
+              <ports>
+                <netPortRef _id='669' verticeId='667' portId='1'/>
+                <netPortRef _id='670' verticeId='659' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='671' id='367' delay='0' name='B FETCH (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='672' id='368' delay='0'>
+              <ports>
+                <netPortRef _id='673' verticeId='671' portId='1'/>
+                <netPortRef _id='674' verticeId='659' portId='3'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='675' id='369' delay='0' name='MB03 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='676' id='370' delay='0'>
+              <ports>
+                <netPortRef _id='677' verticeId='675' portId='1'/>
+                <netPortRef _id='678' verticeId='659' portId='4'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='679' id='371' delay='15' inputCount='3'/>
+            <digitalNet _id='680' id='372' delay='0'>
+              <ports>
+                <netPortRef _id='681' verticeId='658' portId='2'/>
+                <netPortRef _id='682' verticeId='679' portId='1'/>
+                <netPortRef _id='683' verticeId='684' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='684' id='373' delay='0' name='OP2' bitWidth='1' global='true'/>
+            <tunnel _id='685' id='374' delay='0' name='MB04 (0)' bitWidth='1' global='true'/>
+            <digitalNet _id='686' id='375' delay='0'>
+              <ports>
+                <netPortRef _id='687' verticeId='685' portId='1'/>
+                <netPortRef _id='688' verticeId='679' portId='3'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='689' id='376' delay='0' name='!(AC-&gt;MQ ENABLE)' bitWidth='1' global='true'/>
+            <digitalNet _id='690' id='377' delay='0'>
+              <ports>
+                <netPortRef _id='691' verticeId='689' portId='1'/>
+                <netPortRef _id='692' verticeId='679' portId='2'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='693' id='378' delay='15' inputCount='2'/>
+            <tunnel _id='694' id='379' delay='0' name='OP1' bitWidth='1' global='true'/>
+            <digitalNet _id='695' id='380' delay='0'>
+              <ports>
+                <netPortRef _id='696' verticeId='694' portId='1'/>
+                <netPortRef _id='697' verticeId='693' portId='1'/>
+              </ports>
+            </digitalNet>
+            <norGate _id='698' id='381' delay='15' inputCount='2'/>
+            <digitalNet _id='699' id='382' delay='0'>
+              <ports>
+                <netPortRef _id='700' verticeId='698' portId='3'/>
+                <netPortRef _id='701' verticeId='693' portId='2'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='702' id='383' delay='15' inputCount='2'/>
+            <andGate _id='703' id='384' delay='15' inputCount='2'/>
+            <digitalNet _id='704' id='385' delay='0'>
+              <ports>
+                <netPortRef _id='705' verticeId='702' portId='3'/>
+                <netPortRef _id='706' verticeId='698' portId='1'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='707' id='386' delay='0'>
+              <ports>
+                <netPortRef _id='708' verticeId='703' portId='3'/>
+                <netPortRef _id='709' verticeId='698' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='710' id='387' delay='0' name='MB06 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='711' id='388' delay='0'>
+              <ports>
+                <netPortRef _id='712' verticeId='710' portId='1'/>
+                <netPortRef _id='713' verticeId='702' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='714' id='389' delay='0' name='MB04 (0)' bitWidth='1' global='true'/>
+            <digitalNet _id='715' id='390' delay='0'>
+              <ports>
+                <netPortRef _id='716' verticeId='714' portId='1'/>
+                <netPortRef _id='717' verticeId='702' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='718' id='391' delay='0' name='MB06 (0)' bitWidth='1' global='true'/>
+            <digitalNet _id='719' id='392' delay='0'>
+              <ports>
+                <netPortRef _id='720' verticeId='718' portId='1'/>
+                <netPortRef _id='721' verticeId='703' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='722' id='393' delay='0' name='MB04 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='723' id='394' delay='0'>
+              <ports>
+                <netPortRef _id='724' verticeId='722' portId='1'/>
+                <netPortRef _id='725' verticeId='703' portId='1'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='726' id='395' delay='15' inputCount='3'/>
+            <tunnel _id='727' id='396' delay='0' name='TS2 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='728' id='397' delay='0'>
+              <ports>
+                <netPortRef _id='729' verticeId='727' portId='1'/>
+                <netPortRef _id='730' verticeId='726' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='731' id='398' delay='0' name='B EXECUTE (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='732' id='399' delay='0'>
+              <ports>
+                <netPortRef _id='733' verticeId='731' portId='1'/>
+                <netPortRef _id='734' verticeId='726' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='735' id='400' delay='0' name='DCA' bitWidth='1' global='true'/>
+            <digitalNet _id='736' id='401' delay='0'>
+              <ports>
+                <netPortRef _id='737' verticeId='735' portId='1'/>
+                <netPortRef _id='738' verticeId='726' portId='3'/>
+              </ports>
+            </digitalNet>
+            <norGate _id='739' id='402' delay='15' inputCount='4'/>
+            <digitalNet _id='740' id='403' delay='0'>
+              <ports>
+                <netPortRef _id='741' verticeId='643' portId='3'/>
+                <netPortRef _id='742' verticeId='739' portId='1'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='743' id='404' delay='0'>
+              <ports>
+                <netPortRef _id='744' verticeId='679' portId='4'/>
+                <netPortRef _id='745' verticeId='739' portId='2'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='746' id='405' delay='0'>
+              <ports>
+                <netPortRef _id='747' verticeId='693' portId='3'/>
+                <netPortRef _id='748' verticeId='739' portId='3'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='749' id='406' delay='0'>
+              <ports>
+                <netPortRef _id='750' verticeId='726' portId='4'/>
+                <netPortRef _id='751' verticeId='739' portId='4'/>
+              </ports>
+            </digitalNet>
+            <orGate _id='752' id='407' delay='15' inputCount='4' negatedInputs='1,2,3,4'/>
+            <tunnel _id='753' id='408' delay='0' name='AC ENABLE' bitWidth='1' global='true'/>
+            <digitalNet _id='754' id='409' delay='0'>
+              <ports>
+                <netPortRef _id='755' verticeId='753' portId='1'/>
+                <netPortRef _id='756' verticeId='752' portId='5'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='757' id='410' delay='0'>
+              <ports>
+                <netPortRef _id='758' verticeId='739' portId='5'/>
+                <netPortRef _id='759' verticeId='752' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='760' id='411' delay='0' name='!(AND ENABLE)' bitWidth='1' global='true'/>
+            <digitalNet _id='761' id='412' delay='0'>
+              <ports>
+                <netPortRef _id='762' verticeId='760' portId='1'/>
+                <netPortRef _id='763' verticeId='752' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='764' id='413' delay='0' name='!(EAE AC ENABLE)' bitWidth='1' global='true'/>
+            <digitalNet _id='765' id='414' delay='0'>
+              <ports>
+                <netPortRef _id='766' verticeId='764' portId='1'/>
+                <netPortRef _id='767' verticeId='752' portId='4'/>
+              </ports>
+            </digitalNet>
+            <nandGate _id='768' id='415' delay='15' inputCount='3'/>
+            <digitalNet _id='769' id='416' delay='0'>
+              <ports>
+                <netPortRef _id='770' verticeId='768' portId='4'/>
+                <netPortRef _id='771' verticeId='752' portId='3'/>
+                <netPortRef _id='772' verticeId='773' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='774' id='417' delay='0' name='TAD' bitWidth='1' global='true'/>
+            <digitalNet _id='775' id='418' delay='0'>
+              <ports>
+                <netPortRef _id='776' verticeId='774' portId='1'/>
+                <netPortRef _id='777' verticeId='768' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='778' id='419' delay='0' name='TS3 (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='779' id='420' delay='0'>
+              <ports>
+                <netPortRef _id='780' verticeId='778' portId='1'/>
+                <netPortRef _id='781' verticeId='768' portId='2'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='782' id='421' delay='0' name='B EXECUTE (1)' bitWidth='1' global='true'/>
+            <digitalNet _id='783' id='422' delay='0'>
+              <ports>
+                <netPortRef _id='784' verticeId='782' portId='1'/>
+                <netPortRef _id='785' verticeId='768' portId='3'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='773' id='423' delay='0' name='!(ADD)' bitWidth='1' global='true'/>
+            <digitalNet _id='786' id='424' delay='0'>
+              <ports>
+                <netPortRef _id='787' verticeId='61' portId='1'/>
+                <netPortRef _id='788' verticeId='55' portId='5'/>
+              </ports>
+            </digitalNet>
+            <andGate _id='261' id='425' delay='15' inputCount='2'/>
+            <andGate _id='286' id='426' delay='15' inputCount='2'/>
+            <power _id='789' id='427' delay='1' bitWidth='1'/>
+            <digitalNet _id='790' id='428' delay='0'>
+              <ports>
+                <netPortRef _id='791' verticeId='789' portId='1'/>
+                <netPortRef _id='792' verticeId='286' portId='1'/>
+              </ports>
+            </digitalNet>
+            <power _id='793' id='429' delay='1' bitWidth='1'/>
+            <digitalNet _id='794' id='430' delay='0'>
+              <ports>
+                <netPortRef _id='795' verticeId='793' portId='1'/>
+                <netPortRef _id='796' verticeId='261' portId='1'/>
+              </ports>
+            </digitalNet>
+            <ground _id='797' id='431' delay='1' bitWidth='1'/>
+            <digitalNet _id='798' id='432' delay='0'>
+              <ports>
+                <netPortRef _id='799' verticeId='797' portId='1'/>
+                <netPortRef _id='800' verticeId='407' portId='2'/>
+              </ports>
+            </digitalNet>
+            <power _id='801' id='433' delay='1' bitWidth='1'/>
+            <digitalNet _id='802' id='434' delay='0'>
+              <ports>
+                <netPortRef _id='803' verticeId='801' portId='1'/>
+                <netPortRef _id='804' verticeId='407' portId='1'/>
+              </ports>
+            </digitalNet>
+            <ground _id='805' id='435' delay='1' bitWidth='1'/>
+            <power _id='806' id='436' delay='1' bitWidth='1'/>
+            <digitalNet _id='807' id='437' delay='0'>
+              <ports>
+                <netPortRef _id='808' verticeId='805' portId='1'/>
+                <netPortRef _id='809' verticeId='604' portId='1'/>
+              </ports>
+            </digitalNet>
+            <digitalNet _id='810' id='438' delay='0'>
+              <ports>
+                <netPortRef _id='811' verticeId='806' portId='1'/>
+                <netPortRef _id='812' verticeId='604' portId='2'/>
+              </ports>
+            </digitalNet>
+          </elements>
+        </graph>
+      </model>
+      <view>
+        <graphView _id='813'>
+          <netViews>
+            <netView _id='814' modelId='7' style='line'/>
+            <netView _id='815' modelId='10' style='line'/>
+            <netView _id='816' modelId='13' style='line'/>
+            <netView _id='817' modelId='20' style='line'/>
+            <netView _id='818' modelId='23' style='line'/>
+            <netView _id='819' modelId='26' style='line'/>
+            <netView _id='820' modelId='31' style='line'/>
+            <netView _id='821' modelId='35' style='line'/>
+            <netView _id='822' modelId='41' style='line'/>
+            <netView _id='823' modelId='44' style='line'/>
+            <netView _id='824' modelId='47' style='line'/>
+            <netView _id='825' modelId='52' style='line'/>
+            <netView _id='826' modelId='57' style='line'/>
+            <netView _id='827' modelId='62' style='line'/>
+            <netView _id='828' modelId='66' style='line'/>
+            <netView _id='829' modelId='72' style='line'/>
+            <netView _id='830' modelId='76' style='line'/>
+            <netView _id='831' modelId='80' style='line'/>
+            <netView _id='832' modelId='87' style='line'/>
+            <netView _id='833' modelId='91' style='line'/>
+            <netView _id='834' modelId='95' style='line'/>
+            <netView _id='835' modelId='98' style='line'/>
+            <netView _id='836' modelId='105' style='line'/>
+            <netView _id='837' modelId='108' style='line'/>
+            <netView _id='838' modelId='111' style='line'/>
+            <netView _id='839' modelId='115' style='line'/>
+            <netView _id='840' modelId='121' style='line'/>
+            <netView _id='841' modelId='126' style='line'/>
+            <netView _id='842' modelId='129' style='line'/>
+            <netView _id='843' modelId='132' style='line'/>
+            <netView _id='844' modelId='136' style='line'/>
+            <netView _id='845' modelId='142' style='line'/>
+            <netView _id='846' modelId='146' style='line'/>
+            <netView _id='847' modelId='150' style='line'/>
+            <netView _id='848' modelId='154' style='line'/>
+            <netView _id='849' modelId='159' style='line'/>
+            <netView _id='850' modelId='163' style='line'/>
+            <netView _id='851' modelId='166' style='line'/>
+            <netView _id='852' modelId='171' style='line'/>
+            <netView _id='853' modelId='175' style='line'/>
+            <netView _id='854' modelId='179' style='line'/>
+            <netView _id='855' modelId='183' style='line'/>
+            <netView _id='856' modelId='187' style='line'/>
+            <netView _id='857' modelId='191' style='line'/>
+            <netView _id='858' modelId='196' style='line'/>
+            <netView _id='859' modelId='199' style='line'/>
+            <netView _id='860' modelId='205' style='line'/>
+            <netView _id='861' modelId='210' style='line'/>
+            <netView _id='862' modelId='214' style='line'/>
+            <netView _id='863' modelId='218' style='line'/>
+            <netView _id='864' modelId='222' style='line'/>
+            <netView _id='865' modelId='226' style='line'/>
+            <netView _id='866' modelId='231' style='line'/>
+            <netView _id='867' modelId='235' style='line'/>
+            <netView _id='868' modelId='239' style='line'/>
+            <netView _id='869' modelId='243' style='line'/>
+            <netView _id='870' modelId='247' style='line'/>
+            <netView _id='871' modelId='251' style='line'/>
+            <netView _id='872' modelId='255' style='line'/>
+            <netView _id='873' modelId='258' style='line'/>
+            <netView _id='874' modelId='263' style='line'/>
+            <netView _id='875' modelId='270' style='line'/>
+            <netView _id='876' modelId='273' style='line'/>
+            <netView _id='877' modelId='276' style='line'/>
+            <netView _id='878' modelId='279' style='line'/>
+            <netView _id='879' modelId='283' style='line'/>
+            <netView _id='880' modelId='287' style='line'/>
+            <netView _id='881' modelId='291' style='line'/>
+            <netView _id='882' modelId='296' style='line'/>
+            <netView _id='883' modelId='300' style='line'/>
+            <netView _id='884' modelId='304' style='line'/>
+            <netView _id='885' modelId='308' style='line'/>
+            <netView _id='886' modelId='312' style='line'/>
+            <netView _id='887' modelId='317' style='line'/>
+            <netView _id='888' modelId='321' style='line'/>
+            <netView _id='889' modelId='328' style='line'/>
+            <netView _id='890' modelId='332' style='line'/>
+            <netView _id='891' modelId='336' style='line'/>
+            <netView _id='892' modelId='340' style='line'/>
+            <netView _id='893' modelId='344' style='line'/>
+            <netView _id='894' modelId='349' style='line'/>
+            <netView _id='895' modelId='353' style='line'/>
+            <netView _id='896' modelId='358' style='line'/>
+            <netView _id='897' modelId='364' style='line'/>
+            <netView _id='898' modelId='368' style='line'/>
+            <netView _id='899' modelId='372' style='line'/>
+            <netView _id='900' modelId='375' style='line'/>
+            <netView _id='901' modelId='378' style='line'/>
+            <netView _id='902' modelId='381' style='line'/>
+            <netView _id='903' modelId='385' style='line'/>
+            <netView _id='904' modelId='389' style='line'/>
+            <netView _id='905' modelId='395' style='line'/>
+            <netView _id='906' modelId='399' style='line'/>
+            <netView _id='907' modelId='403' style='line'/>
+            <netView _id='908' modelId='409' style='line'/>
+            <netView _id='909' modelId='412' style='line'/>
+            <netView _id='910' modelId='416' style='line'/>
+            <netView _id='911' modelId='421' style='line'/>
+            <netView _id='912' modelId='425' style='line'/>
+            <netView _id='913' modelId='429' style='line'/>
+            <netView _id='914' modelId='432' style='line'/>
+            <netView _id='915' modelId='435' style='line'/>
+            <netView _id='916' modelId='438' style='line'/>
+            <netView _id='917' modelId='441' style='line'/>
+            <netView _id='918' modelId='445' style='line'/>
+            <netView _id='919' modelId='449' style='line'/>
+            <netView _id='920' modelId='453' style='line'/>
+            <netView _id='921' modelId='457' style='line'/>
+            <netView _id='922' modelId='463' style='line'/>
+            <netView _id='923' modelId='467' style='line'/>
+            <netView _id='924' modelId='473' style='line'/>
+            <netView _id='925' modelId='476' style='line'/>
+            <netView _id='926' modelId='479' style='line'/>
+            <netView _id='927' modelId='484' style='line'/>
+            <netView _id='928' modelId='488' style='line'/>
+            <netView _id='929' modelId='493' style='line'/>
+            <netView _id='930' modelId='496' style='line'/>
+            <netView _id='931' modelId='501' style='line'/>
+            <netView _id='932' modelId='505' style='line'/>
+            <netView _id='933' modelId='509' style='line'/>
+            <netView _id='934' modelId='513' style='line'/>
+            <netView _id='935' modelId='517' style='line'/>
+            <netView _id='936' modelId='521' style='line'/>
+            <netView _id='937' modelId='524' style='line'/>
+            <netView _id='938' modelId='529' style='line'/>
+            <netView _id='939' modelId='534' style='line'/>
+            <netView _id='940' modelId='539' style='line'/>
+            <netView _id='941' modelId='544' style='line'/>
+            <netView _id='942' modelId='548' style='line'/>
+            <netView _id='943' modelId='552' style='line'/>
+            <netView _id='944' modelId='557' style='line'/>
+            <netView _id='945' modelId='561' style='line'/>
+            <netView _id='946' modelId='566' style='line'/>
+            <netView _id='947' modelId='570' style='line'/>
+            <netView _id='948' modelId='575' style='line'/>
+            <netView _id='949' modelId='579' style='line'/>
+            <netView _id='950' modelId='584' style='line'/>
+            <netView _id='951' modelId='588' style='line'/>
+            <netView _id='952' modelId='592' style='line'/>
+            <netView _id='953' modelId='597' style='line'/>
+            <netView _id='954' modelId='601' style='line'/>
+            <netView _id='955' modelId='606' style='line'/>
+            <netView _id='956' modelId='609' style='line'/>
+            <netView _id='957' modelId='612' style='line'/>
+            <netView _id='958' modelId='615' style='line'/>
+            <netView _id='959' modelId='618' style='line'/>
+            <netView _id='960' modelId='622' style='line'/>
+            <netView _id='961' modelId='627' style='line'/>
+            <netView _id='962' modelId='632' style='line'/>
+            <netView _id='963' modelId='636' style='line'/>
+            <netView _id='964' modelId='640' style='line'/>
+            <netView _id='965' modelId='645' style='line'/>
+            <netView _id='966' modelId='649' style='line'/>
+            <netView _id='967' modelId='655' style='line'/>
+            <netView _id='968' modelId='660' style='line'/>
+            <netView _id='969' modelId='664' style='line'/>
+            <netView _id='970' modelId='668' style='line'/>
+            <netView _id='971' modelId='672' style='line'/>
+            <netView _id='972' modelId='676' style='line'/>
+            <netView _id='973' modelId='680' style='line'/>
+            <netView _id='974' modelId='686' style='line'/>
+            <netView _id='975' modelId='690' style='line'/>
+            <netView _id='976' modelId='695' style='line'/>
+            <netView _id='977' modelId='699' style='line'/>
+            <netView _id='978' modelId='704' style='line'/>
+            <netView _id='979' modelId='707' style='line'/>
+            <netView _id='980' modelId='711' style='line'/>
+            <netView _id='981' modelId='715' style='line'/>
+            <netView _id='982' modelId='719' style='line'/>
+            <netView _id='983' modelId='723' style='line'/>
+            <netView _id='984' modelId='728' style='line'/>
+            <netView _id='985' modelId='732' style='line'/>
+            <netView _id='986' modelId='736' style='line'/>
+            <netView _id='987' modelId='740' style='line'/>
+            <netView _id='988' modelId='743' style='line'/>
+            <netView _id='989' modelId='746' style='line'/>
+            <netView _id='990' modelId='749' style='line'/>
+            <netView _id='991' modelId='754' style='line'/>
+            <netView _id='992' modelId='757' style='line'/>
+            <netView _id='993' modelId='761' style='line'/>
+            <netView _id='994' modelId='765' style='line'/>
+            <netView _id='995' modelId='769' style='line'/>
+            <netView _id='996' modelId='775' style='line'/>
+            <netView _id='997' modelId='779' style='line'/>
+            <netView _id='998' modelId='783' style='line'/>
+            <netView _id='999' modelId='786' style='line'/>
+            <netView _id='1000' modelId='790' style='line'/>
+            <netView _id='1001' modelId='794' style='line'/>
+            <netView _id='1002' modelId='798' style='line'/>
+            <netView _id='1003' modelId='802' style='line'/>
+            <netView _id='1004' modelId='807' style='line'/>
+            <netView _id='1005' modelId='810' style='line'/>
+          </netViews>
+          <components>
+            <nandGateView _id='1006' id='1' rot='90' filled='true' stroked='true' modelId='3' x='-840.0' y='168.0'/>
+            <tunnelView _id='1007' id='4' rot='270' filled='true' stroked='true' modelId='4' x='-903.0' y='322.0' flowDir='out'/>
+            <tunnelView _id='1008' id='5' rot='270' filled='true' stroked='true' modelId='5' x='-840.0' y='224.0' flowDir='out'/>
+            <tunnelView _id='1009' id='6' rot='270' filled='true' stroked='true' modelId='6' x='-826.0' y='287.0' flowDir='out'/>
+            <digitalEdgeView _id='1010' id='7' filled='true' stroked='true' modelId='7' layout='ortho' orig='1008' origPort='1' origPortOutput='true' dest='1006' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-840.0,238.0 -840.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1011' id='8' filled='true' stroked='true' modelId='10' layout='ortho' orig='1007' origPort='1' origPortOutput='true' dest='1006' destPort='1' adjusted='true'>
+              <shape>
+                <polylineShape points='-903.0,336.0 -903.0,252.0 -854.0,252.0 -854.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1012' id='9' filled='true' stroked='true' modelId='13' layout='ortho' orig='1009' origPort='1' origPortOutput='true' dest='1006' destPort='3' adjusted='true'>
+              <shape>
+                <polylineShape points='-826.0,301.0 -826.0,287.0 -791.0,287.0 -791.0,252.0 -826.0,252.0 -826.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <nandGateView _id='1013' id='10' rot='90' filled='true' stroked='true' modelId='16' x='-595.0' y='168.0'/>
+            <tunnelView _id='1014' id='11' rot='180' filled='true' stroked='true' modelId='17' x='-609.0' y='245.0' flowDir='out'/>
+            <tunnelView _id='1015' id='12' rot='0' filled='true' stroked='true' modelId='18' x='-588.0' y='245.0' flowDir='out'/>
+            <tunnelView _id='1016' id='13' rot='270' filled='true' stroked='true' modelId='19' x='-595.0' y='273.0' flowDir='out'/>
+            <digitalEdgeView _id='1017' id='14' filled='true' stroked='true' modelId='20' layout='ortho' orig='1016' origPort='1' origPortOutput='true' dest='1013' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-595.0,287.0 -595.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1018' id='15' filled='true' stroked='true' modelId='23' layout='ortho' orig='1014' origPort='1' origPortOutput='true' dest='1013' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-623.0,245.0 -609.0,245.0 -609.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1019' id='16' filled='true' stroked='true' modelId='26' layout='ortho' orig='1015' origPort='1' origPortOutput='true' dest='1013' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='-574.0,245.0 -581.0,245.0 -581.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <nandGateView _id='1020' id='17' rot='90' filled='true' stroked='true' modelId='29' x='-385.0' y='168.0'/>
+            <orGateView _id='1021' id='18' rot='90' filled='true' stroked='true' modelId='30' x='-371.0' y='315.0'/>
+            <digitalEdgeView _id='1022' id='19' filled='true' stroked='true' modelId='31' layout='ortho' orig='1021' origPort='4' origPortOutput='true' dest='1020' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-371.0,329.0 -371.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1023' id='20' rot='180' filled='true' stroked='true' modelId='34' x='-399.0' y='238.0' flowDir='out'/>
+            <digitalEdgeView _id='1024' id='21' filled='true' stroked='true' modelId='35' layout='ortho' orig='1023' origPort='1' origPortOutput='true' dest='1020' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-413.0,238.0 -399.0,238.0 -399.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1025' id='22' rot='180' filled='true' stroked='true' modelId='38' x='-385.0' y='392.0' flowDir='out'/>
+            <tunnelView _id='1026' id='23' rot='0' filled='true' stroked='true' modelId='39' x='-357.0' y='392.0' flowDir='out'/>
+            <tunnelView _id='1027' id='24' rot='270' filled='true' stroked='true' modelId='40' x='-371.0' y='385.0' flowDir='out'/>
+            <digitalEdgeView _id='1028' id='25' filled='true' stroked='true' modelId='41' layout='ortho' orig='1025' origPort='1' origPortOutput='true' dest='1021' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-399.0,392.0 -385.0,392.0 -385.0,379.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1029' id='26' filled='true' stroked='true' modelId='44' layout='ortho' orig='1026' origPort='1' origPortOutput='true' dest='1021' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='-343.0,392.0 -357.0,392.0 -357.0,379.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1030' id='27' filled='true' stroked='true' modelId='47' layout='ortho' orig='1027' origPort='1' origPortOutput='true' dest='1021' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-371.0,399.0 -371.0,379.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1031' id='28' rot='0' filled='true' stroked='true' modelId='50' x='-350.0' y='154.0' flowDir='in'/>
+            <tunnelView _id='1032' id='30' rot='180' filled='true' stroked='true' modelId='51' x='-616.0' y='154.0' flowDir='in'/>
+            <orGateView _id='1033' id='32' rot='90' filled='true' stroked='true' modelId='55' x='-497.0' y='-70.0'/>
+            <digitalEdgeView _id='1034' id='38' filled='true' stroked='true' modelId='52' layout='ortho' orig='1013' origPort='4' origPortOutput='true' dest='1035' adjusted='false'>
+              <shape>
+                <polylineShape points='-595.0,174.0 -595.0,154.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalNodeView _id='1035' id='39' filled='true' stroked='true' modelId='52'>
+              <location>
+                <point x='-595.0' y='154.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1036' id='40' filled='true' stroked='true' modelId='52' layout='ortho' orig='1035' dest='1033' destPort='3' adjusted='true'>
+              <shape>
+                <polylineShape points='-595.0,154.0 -497.0,154.0 -497.0,-6.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1037' id='41' filled='true' stroked='true' modelId='52' layout='ortho' orig='1032' origPort='1' origPortOutput='true' dest='1035' adjusted='false'>
+              <shape>
+                <polylineShape points='-630.0,154.0 -595.0,154.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1038' id='42' filled='true' stroked='true' modelId='57' layout='ortho' orig='1031' origPort='1' origPortOutput='true' dest='1039' adjusted='false'>
+              <shape>
+                <polylineShape points='-336.0,154.0 -385.0,154.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalNodeView _id='1039' id='43' filled='true' stroked='true' modelId='57'>
+              <location>
+                <point x='-385.0' y='154.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1040' id='44' filled='true' stroked='true' modelId='57' layout='ortho' orig='1039' dest='1033' destPort='4' adjusted='true'>
+              <shape>
+                <polylineShape points='-385.0,154.0 -483.0,154.0 -483.0,-6.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1041' id='45' filled='true' stroked='true' modelId='57' layout='ortho' orig='1020' origPort='3' origPortOutput='true' dest='1039' adjusted='false'>
+              <shape>
+                <polylineShape points='-385.0,174.0 -385.0,154.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1042' id='46' rot='0' filled='true' stroked='true' modelId='61' x='-434.0' y='-28.0' flowDir='out'/>
+            <digitalEdgeView _id='1043' id='48' filled='true' stroked='true' modelId='62' layout='ortho' orig='1006' origPort='4' origPortOutput='true' dest='1033' destPort='2' adjusted='true'>
+              <shape>
+                <polylineShape points='-840.0,174.0 -840.0,126.0 -511.0,126.0 -511.0,-6.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1044' id='49' rot='180' filled='true' stroked='true' modelId='65' x='-833.0' y='98.0' flowDir='in'/>
+            <digitalEdgeView _id='1045' id='50' filled='true' stroked='true' modelId='66' layout='ortho' orig='1044' origPort='1' origPortOutput='true' dest='1046' adjusted='false'>
+              <shape>
+                <polylineShape points='-847.0,98.0 -742.0,98.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1047' id='51' rot='90' filled='true' stroked='true' modelId='71' x='-497.0' y='-70.0' flowDir='in'/>
+            <digitalEdgeView _id='1048' id='52' filled='true' stroked='true' modelId='72' layout='ortho' orig='1047' origPort='1' origPortOutput='true' dest='1033' destPort='6' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='-497.0,-84.0 -497.0,-56.0'/>
+              </shape>
+            </digitalEdgeView>
+            <nandGateView _id='1049' id='53' rot='0' filled='true' stroked='true' modelId='70' x='-763.0' y='35.0'/>
+            <digitalNodeView _id='1046' id='54' filled='true' stroked='true' modelId='66'>
+              <location>
+                <point x='-742.0' y='98.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1050' id='55' filled='true' stroked='true' modelId='66' layout='ortho' orig='1046' dest='1033' destPort='1' adjusted='true'>
+              <shape>
+                <polylineShape points='-742.0,98.0 -525.0,98.0 -525.0,-6.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1051' id='56' filled='true' stroked='true' modelId='66' layout='ortho' orig='1049' origPort='3' origPortOutput='true' dest='1046' adjusted='false'>
+              <shape>
+                <polylineShape points='-769.0,35.0 -742.0,35.0 -742.0,98.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1052' id='57' rot='180' filled='true' stroked='true' modelId='75' x='-833.0' y='49.0' flowDir='out'/>
+            <digitalEdgeView _id='1053' id='58' filled='true' stroked='true' modelId='76' layout='ortho' orig='1052' origPort='1' origPortOutput='true' dest='1049' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-847.0,49.0 -819.0,49.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1054' id='59' color='turquoise' rot='270' filled='true' stroked='true' modelId='79' x='-910.0' y='-28.0' flowDir='in'/>
+            <digitalEdgeView _id='1055' id='63' filled='true' stroked='true' modelId='80' layout='ortho' orig='1054' origPort='1' origPortOutput='true' dest='1056' adjusted='true'>
+              <shape>
+                <polylineShape points='-910.0,-14.0 -910.0,-35.0 -854.0,-35.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalNodeView _id='1056' id='64' filled='true' stroked='true' modelId='80'>
+              <location>
+                <point x='-854.0' y='-35.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1057' id='65' filled='true' stroked='true' modelId='80' layout='ortho' orig='1056' dest='1049' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-854.0,-35.0 -854.0,21.0 -819.0,21.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1058' id='66' filled='true' stroked='true' modelId='80' layout='ortho' orig='1059' origPort='2' origPortOutput='true' dest='1056' adjusted='false'>
+              <shape>
+                <polylineShape points='-834.0,-35.0 -854.0,-35.0'/>
+              </shape>
+            </digitalEdgeView>
+            <orGateView _id='1060' id='67' rot='0' filled='true' stroked='true' modelId='85' x='-749.0' y='-112.0'/>
+            <tunnelView _id='1061' id='68' rot='180' filled='true' stroked='true' modelId='86' x='-819.0' y='-133.0' flowDir='out'/>
+            <digitalEdgeView _id='1062' id='69' filled='true' stroked='true' modelId='87' layout='ortho' orig='1061' origPort='1' origPortOutput='true' dest='1060' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-833.0,-133.0 -826.0,-133.0 -826.0,-126.0 -813.0,-126.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1063' id='71' rot='180' filled='true' stroked='true' modelId='90' x='-819.0' y='-112.0' flowDir='out'/>
+            <digitalEdgeView _id='1064' id='72' filled='true' stroked='true' modelId='91' layout='ortho' orig='1063' origPort='1' origPortOutput='true' dest='1060' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-833.0,-112.0 -813.0,-112.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1065' id='73' rot='180' filled='true' stroked='true' modelId='94' x='-819.0' y='-91.0' flowDir='out'/>
+            <digitalEdgeView _id='1066' id='74' filled='true' stroked='true' modelId='95' layout='ortho' orig='1065' origPort='1' origPortOutput='true' dest='1060' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='-833.0,-91.0 -826.0,-91.0 -826.0,-98.0 -813.0,-98.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1067' id='75' filled='true' stroked='true' modelId='98' layout='ortho' orig='1060' origPort='4' origPortOutput='true' dest='1059' destPort='1' adjusted='true'>
+              <shape>
+                <polylineShape points='-763.0,-112.0 -742.0,-112.0 -742.0,-35.0 -784.0,-35.0'/>
+              </shape>
+            </digitalEdgeView>
+            <notGateView _id='1059' id='76' rot='180' filled='true' stroked='true' modelId='84' x='-840.0' y='-35.0'/>
+            <orGateView _id='1068' id='77' rot='90' filled='true' stroked='true' modelId='101' x='-84.0' y='7.0'/>
+            <tunnelView _id='1069' id='78' color='turquoise' rot='270' filled='true' stroked='true' modelId='102' x='-98.0' y='154.0' flowDir='out'/>
+            <tunnelView _id='1070' id='79' rot='270' filled='true' stroked='true' modelId='103' x='-7.0' y='119.0' flowDir='out'/>
+            <tunnelView _id='1071' id='80' rot='90' filled='true' stroked='true' modelId='104' x='0.0' y='98.0' flowDir='out'/>
+            <digitalEdgeView _id='1072' id='81' filled='true' stroked='true' modelId='105' layout='ortho' orig='1069' origPort='1' origPortOutput='true' dest='1068' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-98.0,168.0 -98.0,71.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1073' id='82' filled='true' stroked='true' modelId='108' layout='ortho' orig='1070' origPort='1' origPortOutput='true' dest='1068' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-7.0,133.0 -7.0,105.0 -84.0,105.0 -84.0,71.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1074' id='83' filled='true' stroked='true' modelId='111' layout='ortho' orig='1071' origPort='1' origPortOutput='true' dest='1068' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='0.0,84.0 0.0,91.0 -70.0,91.0 -70.0,71.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1075' id='84' rot='90' filled='true' stroked='true' modelId='114' x='-84.0' y='7.0' flowDir='in'/>
+            <digitalEdgeView _id='1076' id='85' filled='true' stroked='true' modelId='115' layout='ortho' orig='1075' origPort='1' origPortOutput='true' dest='1068' destPort='4' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='-84.0,-7.0 -84.0,21.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1077' id='87' rot='180' filled='true' stroked='true' modelId='118' x='133.0' y='238.0' flowDir='out'/>
+            <notGateView _id='1078' id='88' rot='90' filled='true' stroked='true' modelId='119' x='147.0' y='14.0'/>
+            <nandGateView _id='1079' id='89' rot='90' filled='true' stroked='true' modelId='120' x='147.0' y='168.0'/>
+            <digitalEdgeView _id='1080' id='90' filled='true' stroked='true' modelId='121' layout='ortho' orig='1079' origPort='4' origPortOutput='true' dest='1078' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='147.0,174.0 147.0,70.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1081' id='91' rot='270' filled='true' stroked='true' modelId='124' x='147.0' y='231.0' flowDir='out'/>
+            <tunnelView _id='1082' id='92' rot='0' filled='true' stroked='true' modelId='125' x='161.0' y='238.0' flowDir='out'/>
+            <digitalEdgeView _id='1083' id='93' filled='true' stroked='true' modelId='126' layout='ortho' orig='1077' origPort='1' origPortOutput='true' dest='1079' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='119.0,238.0 133.0,238.0 133.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1084' id='94' filled='true' stroked='true' modelId='129' layout='ortho' orig='1081' origPort='1' origPortOutput='true' dest='1079' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='147.0,245.0 147.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1085' id='95' filled='true' stroked='true' modelId='132' layout='ortho' orig='1082' origPort='1' origPortOutput='true' dest='1079' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='175.0,238.0 161.0,238.0 161.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1086' id='96' rot='90' filled='true' stroked='true' modelId='135' x='147.0' y='14.0' flowDir='in'/>
+            <digitalEdgeView _id='1087' id='97' filled='true' stroked='true' modelId='136' layout='ortho' orig='1086' origPort='1' origPortOutput='true' dest='1078' destPort='2' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='147.0,0.0 147.0,20.0'/>
+              </shape>
+            </digitalEdgeView>
+            <orGateView _id='1088' id='98' rot='90' filled='true' stroked='true' modelId='139' x='658.0' y='7.0'/>
+            <notGateView _id='1089' id='101' rot='90' filled='true' stroked='true' modelId='140' x='378.0' y='14.0'/>
+            <tunnelView _id='1090' id='102' rot='90' filled='true' stroked='true' modelId='141' x='378.0' y='14.0' flowDir='in'/>
+            <digitalEdgeView _id='1091' id='103' filled='true' stroked='true' modelId='142' layout='ortho' orig='1090' origPort='1' origPortOutput='true' dest='1089' destPort='2' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='378.0,0.0 378.0,20.0'/>
+              </shape>
+            </digitalEdgeView>
+            <nandGateView _id='1092' id='104' rot='90' filled='true' stroked='true' modelId='145' x='378.0' y='168.0'/>
+            <digitalEdgeView _id='1093' id='105' filled='true' stroked='true' modelId='146' layout='ortho' orig='1092' origPort='3' origPortOutput='true' dest='1089' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='378.0,174.0 378.0,70.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1094' id='106' rot='180' filled='true' stroked='true' modelId='149' x='371.0' y='238.0' flowDir='out'/>
+            <digitalEdgeView _id='1095' id='107' filled='true' stroked='true' modelId='150' layout='ortho' orig='1094' origPort='1' origPortOutput='true' dest='1092' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='357.0,238.0 364.0,238.0 364.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1096' id='108' rot='0' filled='true' stroked='true' modelId='153' x='392.0' y='238.0' flowDir='out'/>
+            <digitalEdgeView _id='1097' id='109' filled='true' stroked='true' modelId='154' layout='ortho' orig='1096' origPort='1' origPortOutput='true' dest='1092' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='406.0,238.0 392.0,238.0 392.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <nandGateView _id='1098' id='110' rot='90' filled='true' stroked='true' modelId='157' x='546.0' y='231.0'/>
+            <tunnelView _id='1099' id='111' rot='180' filled='true' stroked='true' modelId='158' x='539.0' y='308.0' flowDir='out'/>
+            <digitalEdgeView _id='1100' id='112' filled='true' stroked='true' modelId='159' layout='ortho' orig='1099' origPort='1' origPortOutput='true' dest='1098' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='525.0,308.0 532.0,308.0 532.0,287.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1101' id='113' rot='0' filled='true' stroked='true' modelId='162' x='560.0' y='308.0' flowDir='out'/>
+            <digitalEdgeView _id='1102' id='114' filled='true' stroked='true' modelId='163' layout='ortho' orig='1101' origPort='1' origPortOutput='true' dest='1098' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='574.0,308.0 560.0,308.0 560.0,287.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1103' id='115' filled='true' stroked='true' modelId='166' layout='ortho' orig='1098' origPort='3' origPortOutput='true' dest='1088' destPort='1' adjusted='true'>
+              <shape>
+                <polylineShape points='546.0,237.0 546.0,133.0 644.0,133.0 644.0,71.0'/>
+              </shape>
+            </digitalEdgeView>
+            <nandGateView _id='1104' id='116' rot='90' filled='true' stroked='true' modelId='169' x='644.0' y='168.0'/>
+            <tunnelView _id='1105' id='117' rot='180' filled='true' stroked='true' modelId='170' x='630.0' y='238.0' flowDir='out'/>
+            <digitalEdgeView _id='1106' id='118' filled='true' stroked='true' modelId='171' layout='ortho' orig='1105' origPort='1' origPortOutput='true' dest='1104' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='616.0,238.0 630.0,238.0 630.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1107' id='119' rot='0' filled='true' stroked='true' modelId='174' x='658.0' y='238.0' flowDir='out'/>
+            <digitalEdgeView _id='1108' id='120' filled='true' stroked='true' modelId='175' layout='ortho' orig='1107' origPort='1' origPortOutput='true' dest='1104' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='672.0,238.0 658.0,238.0 658.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1109' id='121' rot='270' filled='true' stroked='true' modelId='178' x='644.0' y='224.0' flowDir='out'/>
+            <digitalEdgeView _id='1110' id='122' filled='true' stroked='true' modelId='179' layout='ortho' orig='1109' origPort='1' origPortOutput='true' dest='1104' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='644.0,238.0 644.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1111' id='123' rot='180' filled='true' stroked='true' modelId='182' x='644.0' y='168.0' flowDir='in'/>
+            <digitalEdgeView _id='1112' id='124' filled='true' stroked='true' modelId='183' layout='ortho' orig='1111' origPort='1' origPortOutput='true' dest='1104' destPort='4' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='630.0,168.0 644.0,168.0 644.0,174.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1113' id='125' rot='270' filled='true' stroked='true' modelId='186' x='658.0' y='98.0' flowDir='out'/>
+            <digitalEdgeView _id='1114' id='126' filled='true' stroked='true' modelId='187' layout='ortho' orig='1113' origPort='1' origPortOutput='true' dest='1088' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='658.0,112.0 658.0,71.0'/>
+              </shape>
+            </digitalEdgeView>
+            <nandGateView _id='1115' id='127' rot='90' filled='true' stroked='true' modelId='190' x='798.0' y='224.0'/>
+            <digitalEdgeView _id='1116' id='129' filled='true' stroked='true' modelId='191' layout='ortho' orig='1117' origPort='1' origPortOutput='true' dest='1115' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='777.0,308.0 784.0,308.0 784.0,280.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1117' id='130' rot='180' filled='true' stroked='true' modelId='193' x='791.0' y='308.0' flowDir='out'/>
+            <tunnelView _id='1118' id='131' rot='0' filled='true' stroked='true' modelId='195' x='812.0' y='308.0' flowDir='out'/>
+            <digitalEdgeView _id='1119' id='132' filled='true' stroked='true' modelId='196' layout='ortho' orig='1118' origPort='1' origPortOutput='true' dest='1115' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='826.0,308.0 812.0,308.0 812.0,280.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1120' id='133' filled='true' stroked='true' modelId='199' layout='ortho' orig='1115' origPort='3' origPortOutput='true' dest='1121' adjusted='false'>
+              <shape>
+                <polylineShape points='798.0,230.0 798.0,189.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1122' id='134' rot='90' filled='true' stroked='true' modelId='204' x='658.0' y='14.0' flowDir='in'/>
+            <digitalEdgeView _id='1123' id='135' filled='true' stroked='true' modelId='205' layout='ortho' orig='1122' origPort='1' origPortOutput='true' dest='1088' destPort='4' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='658.0,0.0 658.0,21.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1124' id='136' rot='0' filled='true' stroked='true' modelId='203' x='819.0' y='189.0' flowDir='in'/>
+            <digitalNodeView _id='1121' id='137' filled='true' stroked='true' modelId='199'>
+              <location>
+                <point x='798.0' y='189.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1125' id='138' filled='true' stroked='true' modelId='199' layout='ortho' orig='1121' dest='1088' destPort='3' adjusted='true'>
+              <shape>
+                <polylineShape points='798.0,189.0 798.0,133.0 672.0,133.0 672.0,71.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1126' id='139' filled='true' stroked='true' modelId='199' layout='ortho' orig='1124' origPort='1' origPortOutput='true' dest='1121' adjusted='false'>
+              <shape>
+                <polylineShape points='833.0,189.0 798.0,189.0'/>
+              </shape>
+            </digitalEdgeView>
+            <nandGateView _id='1127' id='140' rot='90' filled='true' stroked='true' modelId='208' x='1001.0' y='168.0'/>
+            <tunnelView _id='1128' id='141' rot='270' filled='true' stroked='true' modelId='209' x='987.0' y='266.0' flowDir='out'/>
+            <digitalEdgeView _id='1129' id='142' filled='true' stroked='true' modelId='210' layout='ortho' orig='1128' origPort='1' origPortOutput='true' dest='1127' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='987.0,280.0 987.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1130' id='143' rot='270' filled='true' stroked='true' modelId='213' x='1029.0' y='238.0' flowDir='out'/>
+            <digitalEdgeView _id='1131' id='144' filled='true' stroked='true' modelId='214' layout='ortho' orig='1130' origPort='1' origPortOutput='true' dest='1127' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1029.0,252.0 1029.0,238.0 1015.0,238.0 1015.0,224.0'/>
+              </shape>
+            </digitalEdgeView>
+            <orGateView _id='1132' id='145' rot='90' filled='true' stroked='true' modelId='217' x='1015.0' y='7.0'/>
+            <digitalEdgeView _id='1133' id='146' filled='true' stroked='true' modelId='218' layout='ortho' orig='1127' origPort='3' origPortOutput='true' dest='1132' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1001.0,174.0 1001.0,71.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1134' id='147' rot='0' filled='true' stroked='true' modelId='221' x='1029.0' y='126.0' flowDir='out'/>
+            <digitalEdgeView _id='1135' id='148' filled='true' stroked='true' modelId='222' layout='ortho' orig='1134' origPort='1' origPortOutput='true' dest='1132' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1043.0,126.0 1029.0,126.0 1029.0,71.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1136' id='149' rot='90' filled='true' stroked='true' modelId='225' x='1015.0' y='14.0' flowDir='in'/>
+            <digitalEdgeView _id='1137' id='150' filled='true' stroked='true' modelId='226' layout='ortho' orig='1136' origPort='1' origPortOutput='true' dest='1132' destPort='3' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='1015.0,0.0 1015.0,21.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1138' id='151' rot='90' filled='true' stroked='true' modelId='229' x='1169.0' y='203.0'/>
+            <tunnelView _id='1139' id='152' rot='180' filled='true' stroked='true' modelId='230' x='1162.0' y='273.0' flowDir='out'/>
+            <digitalEdgeView _id='1140' id='153' filled='true' stroked='true' modelId='231' layout='ortho' orig='1139' origPort='1' origPortOutput='true' dest='1138' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1148.0,273.0 1155.0,273.0 1155.0,259.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1141' id='154' rot='0' filled='true' stroked='true' modelId='234' x='1183.0' y='273.0' flowDir='out'/>
+            <digitalEdgeView _id='1142' id='155' filled='true' stroked='true' modelId='235' layout='ortho' orig='1141' origPort='1' origPortOutput='true' dest='1138' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1197.0,273.0 1183.0,273.0 1183.0,259.0'/>
+              </shape>
+            </digitalEdgeView>
+            <norGateView _id='1143' id='156' rot='90' filled='true' stroked='true' modelId='238' x='1442.0' y='7.0'/>
+            <digitalEdgeView _id='1144' id='157' filled='true' stroked='true' modelId='239' layout='ortho' orig='1138' origPort='3' origPortOutput='true' dest='1143' destPort='1' adjusted='true'>
+              <shape>
+                <polylineShape points='1169.0,217.0 1169.0,140.0 1414.0,140.0 1414.0,63.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1145' id='158' rot='90' filled='true' stroked='true' modelId='242' x='1309.0' y='161.0'/>
+            <digitalEdgeView _id='1146' id='159' filled='true' stroked='true' modelId='243' layout='ortho' orig='1145' origPort='4' origPortOutput='true' dest='1143' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1309.0,175.0 1309.0,161.0 1428.0,161.0 1428.0,63.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1147' id='160' rot='270' filled='true' stroked='true' modelId='246' x='1309.0' y='231.0' flowDir='out'/>
+            <digitalEdgeView _id='1148' id='161' filled='true' stroked='true' modelId='247' layout='ortho' orig='1147' origPort='1' origPortOutput='true' dest='1145' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1309.0,245.0 1309.0,217.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1149' id='162' rot='180' filled='true' stroked='true' modelId='250' x='1295.0' y='231.0' flowDir='out'/>
+            <digitalEdgeView _id='1150' id='163' filled='true' stroked='true' modelId='251' layout='ortho' orig='1149' origPort='1' origPortOutput='true' dest='1145' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1281.0,231.0 1295.0,231.0 1295.0,217.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1151' id='164' rot='0' filled='true' stroked='true' modelId='254' x='1323.0' y='231.0' flowDir='out'/>
+            <digitalEdgeView _id='1152' id='165' filled='true' stroked='true' modelId='255' layout='ortho' orig='1151' origPort='1' origPortOutput='true' dest='1145' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='1337.0,231.0 1323.0,231.0 1323.0,217.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1153' id='167' filled='true' stroked='true' modelId='258' layout='ortho' orig='1154' origPort='3' origPortOutput='true' dest='1143' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='1442.0,294.0 1442.0,63.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1155' id='168' rot='270' filled='true' stroked='true' modelId='262' x='1456.0' y='350.0' flowDir='out'/>
+            <digitalEdgeView _id='1156' id='169' filled='true' stroked='true' modelId='263' layout='ortho' orig='1155' origPort='1' origPortOutput='true' dest='1154' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1456.0,364.0 1456.0,336.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1157' id='170' rot='90' filled='true' stroked='true' modelId='266' x='1568.0' y='161.0'/>
+            <tunnelView _id='1158' id='171' rot='270' filled='true' stroked='true' modelId='267' x='1519.0' y='231.0' flowDir='out'/>
+            <tunnelView _id='1159' id='172' rot='270' filled='true' stroked='true' modelId='268' x='1568.0' y='266.0' flowDir='out'/>
+            <tunnelView _id='1160' id='173' rot='0' filled='true' stroked='true' modelId='269' x='1582.0' y='231.0' flowDir='out'/>
+            <digitalEdgeView _id='1161' id='174' filled='true' stroked='true' modelId='270' layout='ortho' orig='1160' origPort='1' origPortOutput='true' dest='1157' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='1596.0,231.0 1582.0,231.0 1582.0,217.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1162' id='175' filled='true' stroked='true' modelId='273' layout='ortho' orig='1159' origPort='1' origPortOutput='true' dest='1157' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1568.0,280.0 1568.0,217.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1163' id='176' filled='true' stroked='true' modelId='276' layout='ortho' orig='1158' origPort='1' origPortOutput='true' dest='1157' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1519.0,245.0 1519.0,231.0 1554.0,231.0 1554.0,217.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1164' id='177' filled='true' stroked='true' modelId='279' layout='ortho' orig='1157' origPort='4' origPortOutput='true' dest='1143' destPort='4' adjusted='true'>
+              <shape>
+                <polylineShape points='1568.0,175.0 1568.0,154.0 1456.0,154.0 1456.0,63.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1165' id='179' rot='270' filled='true' stroked='true' modelId='282' x='1729.0' y='350.0' flowDir='out'/>
+            <digitalEdgeView _id='1166' id='180' filled='true' stroked='true' modelId='283' layout='ortho' orig='1165' origPort='1' origPortOutput='true' dest='1167' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1729.0,364.0 1729.0,336.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1168' id='181' filled='true' stroked='true' modelId='287' layout='ortho' orig='1167' origPort='3' origPortOutput='true' dest='1143' destPort='5' adjusted='true'>
+              <shape>
+                <polylineShape points='1715.0,294.0 1715.0,140.0 1470.0,140.0 1470.0,63.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1169' id='182' rot='90' filled='true' stroked='true' modelId='290' x='1442.0' y='14.0' flowDir='in'/>
+            <digitalEdgeView _id='1170' id='183' filled='true' stroked='true' modelId='291' layout='ortho' orig='1169' origPort='1' origPortOutput='true' dest='1143' destPort='6' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='1442.0,0.0 1442.0,13.0'/>
+              </shape>
+            </digitalEdgeView>
+            <nandGateView _id='1171' id='184' rot='90' filled='true' stroked='true' modelId='294' x='1841.0' y='161.0'/>
+            <tunnelView _id='1172' id='185' rot='180' filled='true' stroked='true' modelId='295' x='1827.0' y='231.0' flowDir='out'/>
+            <digitalEdgeView _id='1173' id='186' filled='true' stroked='true' modelId='296' layout='ortho' orig='1172' origPort='1' origPortOutput='true' dest='1171' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1813.0,231.0 1827.0,231.0 1827.0,217.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1174' id='187' rot='0' filled='true' stroked='true' modelId='299' x='1855.0' y='231.0' flowDir='out'/>
+            <digitalEdgeView _id='1175' id='188' filled='true' stroked='true' modelId='300' layout='ortho' orig='1174' origPort='1' origPortOutput='true' dest='1171' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1869.0,231.0 1855.0,231.0 1855.0,217.0'/>
+              </shape>
+            </digitalEdgeView>
+            <orGateView _id='1176' id='189' rot='90' filled='true' stroked='true' modelId='303' x='1855.0' y='0.0'/>
+            <digitalEdgeView _id='1177' id='190' filled='true' stroked='true' modelId='304' layout='ortho' orig='1171' origPort='3' origPortOutput='true' dest='1176' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1841.0,167.0 1841.0,64.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1178' id='191' rot='0' filled='true' stroked='true' modelId='307' x='1869.0' y='91.0' flowDir='out'/>
+            <digitalEdgeView _id='1179' id='192' filled='true' stroked='true' modelId='308' layout='ortho' orig='1178' origPort='1' origPortOutput='true' dest='1176' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1883.0,91.0 1869.0,91.0 1869.0,64.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1180' id='193' rot='90' filled='true' stroked='true' modelId='311' x='1855.0' y='14.0' flowDir='in'/>
+            <digitalEdgeView _id='1181' id='194' filled='true' stroked='true' modelId='312' layout='ortho' orig='1180' origPort='1' origPortOutput='true' dest='1176' destPort='3' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='1855.0,0.0 1855.0,14.0'/>
+              </shape>
+            </digitalEdgeView>
+            <notGateView _id='1182' id='195' rot='90' filled='true' stroked='true' modelId='315' x='-504.0' y='-364.0'/>
+            <tunnelView _id='1183' id='198' rot='270' filled='true' stroked='true' modelId='316' x='-504.0' y='-294.0' flowDir='out'/>
+            <digitalEdgeView _id='1184' id='199' filled='true' stroked='true' modelId='317' layout='ortho' orig='1183' origPort='1' origPortOutput='true' dest='1182' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-504.0,-280.0 -504.0,-308.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1185' id='200' rot='0' filled='true' stroked='true' modelId='320' x='-483.0' y='-385.0' flowDir='in'/>
+            <digitalEdgeView _id='1186' id='201' filled='true' stroked='true' modelId='321' layout='ortho' orig='1182' origPort='2' origPortOutput='true' dest='1187' adjusted='false'>
+              <shape>
+                <polylineShape points='-504.0,-358.0 -504.0,-385.0'/>
+              </shape>
+            </digitalEdgeView>
+            <notGateView _id='1188' id='202' rot='0' filled='true' stroked='true' modelId='326' x='665.0' y='385.0'/>
+            <tunnelView _id='1189' id='203' rot='180' filled='true' stroked='true' modelId='327' x='595.0' y='385.0' flowDir='out'/>
+            <digitalEdgeView _id='1190' id='204' filled='true' stroked='true' modelId='328' layout='ortho' orig='1189' origPort='1' origPortOutput='true' dest='1188' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='581.0,385.0 609.0,385.0'/>
+              </shape>
+            </digitalEdgeView>
+            <nandGateView _id='1191' id='205' rot='0' filled='true' stroked='true' modelId='331' x='735.0' y='399.0'/>
+            <digitalEdgeView _id='1192' id='206' filled='true' stroked='true' modelId='332' layout='ortho' orig='1191' origPort='1' dest='1188' destPort='2' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='679.0,385.0 659.0,385.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1193' id='207' rot='180' filled='true' stroked='true' modelId='335' x='623.0' y='413.0' flowDir='out'/>
+            <digitalEdgeView _id='1194' id='208' filled='true' stroked='true' modelId='336' layout='ortho' orig='1193' origPort='1' origPortOutput='true' dest='1191' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='609.0,413.0 679.0,413.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1195' id='209' rot='0' filled='true' stroked='true' modelId='339' x='735.0' y='399.0' flowDir='in'/>
+            <digitalEdgeView _id='1196' id='210' filled='true' stroked='true' modelId='340' layout='ortho' orig='1195' origPort='1' origPortOutput='true' dest='1191' destPort='3' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='749.0,399.0 729.0,399.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1197' id='211' rot='90' filled='true' stroked='true' modelId='325' x='-518.0' y='-504.0'/>
+            <digitalNodeView _id='1187' id='212' filled='true' stroked='true' modelId='321'>
+              <location>
+                <point x='-504.0' y='-385.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1198' id='213' filled='true' stroked='true' modelId='321' layout='ortho' orig='1187' dest='1185' destPort='1' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='-504.0,-385.0 -469.0,-385.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1199' id='214' filled='true' stroked='true' modelId='321' layout='ortho' orig='1187' dest='1197' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-504.0,-385.0 -504.0,-448.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1200' id='215' rot='180' filled='true' stroked='true' modelId='343' x='-532.0' y='-434.0' flowDir='out'/>
+            <digitalEdgeView _id='1201' id='216' filled='true' stroked='true' modelId='344' layout='ortho' orig='1200' origPort='1' origPortOutput='true' dest='1197' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-546.0,-434.0 -532.0,-434.0 -532.0,-448.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1202' id='217' rot='90' filled='true' stroked='true' modelId='347' x='-322.0' y='-504.0'/>
+            <tunnelView _id='1203' id='218' rot='180' filled='true' stroked='true' modelId='348' x='-336.0' y='-434.0' flowDir='out'/>
+            <digitalEdgeView _id='1204' id='219' filled='true' stroked='true' modelId='349' layout='ortho' orig='1203' origPort='1' origPortOutput='true' dest='1202' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-350.0,-434.0 -336.0,-434.0 -336.0,-448.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1205' id='220' rot='0' filled='true' stroked='true' modelId='352' x='-308.0' y='-434.0' flowDir='out'/>
+            <digitalEdgeView _id='1206' id='221' filled='true' stroked='true' modelId='353' layout='ortho' orig='1205' origPort='1' origPortOutput='true' dest='1202' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-294.0,-434.0 -308.0,-434.0 -308.0,-448.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1207' id='222' rot='90' filled='true' stroked='true' modelId='356' x='-714.0' y='-504.0'/>
+            <tunnelView _id='1208' id='223' rot='180' filled='true' stroked='true' modelId='357' x='-728.0' y='-413.0' flowDir='out'/>
+            <digitalEdgeView _id='1209' id='224' filled='true' stroked='true' modelId='358' layout='ortho' orig='1208' origPort='1' origPortOutput='true' dest='1210' adjusted='true'>
+              <shape>
+                <polylineShape points='-742.0,-413.0 -728.0,-413.0 -728.0,-434.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1211' id='225' rot='270' filled='true' stroked='true' modelId='363' x='-700.0' y='-434.0' flowDir='out'/>
+            <digitalEdgeView _id='1212' id='226' filled='true' stroked='true' modelId='364' layout='ortho' orig='1211' origPort='1' origPortOutput='true' dest='1207' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-700.0,-420.0 -700.0,-448.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1213' id='227' rot='90' filled='true' stroked='true' modelId='362' x='-896.0' y='-504.0'/>
+            <digitalNodeView _id='1210' id='228' filled='true' stroked='true' modelId='358'>
+              <location>
+                <point x='-728.0' y='-434.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1214' id='229' filled='true' stroked='true' modelId='358' layout='ortho' orig='1210' dest='1207' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-728.0,-434.0 -728.0,-448.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1215' id='230' filled='true' stroked='true' modelId='358' layout='ortho' orig='1210' dest='1213' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-728.0,-434.0 -882.0,-434.0 -882.0,-448.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1216' id='231' rot='270' filled='true' stroked='true' modelId='367' x='-910.0' y='-434.0' flowDir='out'/>
+            <digitalEdgeView _id='1217' id='232' filled='true' stroked='true' modelId='368' layout='ortho' orig='1216' origPort='1' origPortOutput='true' dest='1213' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-910.0,-420.0 -910.0,-448.0'/>
+              </shape>
+            </digitalEdgeView>
+            <norGateView _id='1218' id='233' rot='90' filled='true' stroked='true' modelId='371' x='-623.0' y='-637.0'/>
+            <digitalEdgeView _id='1219' id='234' filled='true' stroked='true' modelId='372' layout='ortho' orig='1213' origPort='3' origPortOutput='true' dest='1218' destPort='1' adjusted='true'>
+              <shape>
+                <polylineShape points='-896.0,-490.0 -896.0,-546.0 -644.0,-546.0 -644.0,-581.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1220' id='235' filled='true' stroked='true' modelId='375' layout='ortho' orig='1207' origPort='3' origPortOutput='true' dest='1218' destPort='2' adjusted='true'>
+              <shape>
+                <polylineShape points='-714.0,-490.0 -714.0,-532.0 -630.0,-532.0 -630.0,-581.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1221' id='236' filled='true' stroked='true' modelId='378' layout='ortho' orig='1197' origPort='3' origPortOutput='true' dest='1218' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='-518.0,-490.0 -518.0,-532.0 -616.0,-532.0 -616.0,-581.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1222' id='237' filled='true' stroked='true' modelId='381' layout='ortho' orig='1202' origPort='3' origPortOutput='true' dest='1218' destPort='4' adjusted='true'>
+              <shape>
+                <polylineShape points='-322.0,-490.0 -322.0,-546.0 -602.0,-546.0 -602.0,-581.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1223' id='238' rot='90' filled='true' stroked='true' modelId='384' x='-637.0' y='-728.0'/>
+            <digitalEdgeView _id='1224' id='239' filled='true' stroked='true' modelId='385' layout='ortho' orig='1218' origPort='5' origPortOutput='true' dest='1223' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-623.0,-631.0 -623.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1225' id='240' rot='270' filled='true' stroked='true' modelId='388' x='-679.0' y='-651.0' flowDir='out'/>
+            <digitalEdgeView _id='1226' id='241' filled='true' stroked='true' modelId='389' layout='ortho' orig='1225' origPort='1' origPortOutput='true' dest='1223' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-679.0,-637.0 -679.0,-651.0 -651.0,-651.0 -651.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1227' id='242' rot='90' filled='true' stroked='true' modelId='392' x='-476.0' y='-728.0'/>
+            <andGateView _id='1228' id='243' rot='90' filled='true' stroked='true' modelId='393' x='-196.0' y='-728.0'/>
+            <tunnelView _id='1229' id='245' rot='180' filled='true' stroked='true' modelId='394' x='-490.0' y='-658.0' flowDir='out'/>
+            <digitalEdgeView _id='1230' id='246' filled='true' stroked='true' modelId='395' layout='ortho' orig='1229' origPort='1' origPortOutput='true' dest='1227' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-504.0,-658.0 -490.0,-658.0 -490.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1231' id='247' rot='270' filled='true' stroked='true' modelId='398' x='-476.0' y='-658.0' flowDir='out'/>
+            <digitalEdgeView _id='1232' id='248' filled='true' stroked='true' modelId='399' layout='ortho' orig='1231' origPort='1' origPortOutput='true' dest='1227' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-476.0,-644.0 -476.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1233' id='249' rot='0' filled='true' stroked='true' modelId='402' x='-462.0' y='-658.0' flowDir='out'/>
+            <digitalEdgeView _id='1234' id='250' filled='true' stroked='true' modelId='403' layout='ortho' orig='1233' origPort='1' origPortOutput='true' dest='1227' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='-448.0,-658.0 -462.0,-658.0 -462.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1235' id='251' rot='0' filled='true' stroked='true' modelId='406' x='-182.0' y='-658.0' flowDir='out'/>
+            <andGateView _id='1236' id='252' rot='90' filled='true' stroked='true' modelId='407' x='-329.0' y='-728.0'/>
+            <tunnelView _id='1237' id='257' rot='180' filled='true' stroked='true' modelId='408' x='-210.0' y='-630.0' flowDir='out'/>
+            <digitalEdgeView _id='1238' id='258' filled='true' stroked='true' modelId='409' layout='ortho' orig='1237' origPort='1' origPortOutput='true' dest='1228' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-224.0,-630.0 -210.0,-630.0 -210.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1239' id='259' filled='true' stroked='true' modelId='412' layout='ortho' orig='1235' origPort='1' origPortOutput='true' dest='1228' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='-168.0,-658.0 -182.0,-658.0 -182.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1240' id='260' rot='270' filled='true' stroked='true' modelId='415' x='-196.0' y='-658.0' flowDir='out'/>
+            <digitalEdgeView _id='1241' id='261' filled='true' stroked='true' modelId='416' layout='ortho' orig='1240' origPort='1' origPortOutput='true' dest='1228' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-196.0,-644.0 -196.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1242' id='262' rot='90' filled='true' stroked='true' modelId='419' x='-35.0' y='-728.0'/>
+            <tunnelView _id='1243' id='263' rot='180' filled='true' stroked='true' modelId='420' x='-49.0' y='-637.0' flowDir='out'/>
+            <digitalEdgeView _id='1244' id='264' filled='true' stroked='true' modelId='421' layout='ortho' orig='1243' origPort='1' origPortOutput='true' dest='1242' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-63.0,-637.0 -49.0,-637.0 -49.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1245' id='265' rot='270' filled='true' stroked='true' modelId='424' x='-21.0' y='-658.0' flowDir='out'/>
+            <digitalEdgeView _id='1246' id='266' filled='true' stroked='true' modelId='425' layout='ortho' orig='1245' origPort='1' origPortOutput='true' dest='1242' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-21.0,-644.0 -21.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <norGateView _id='1247' id='267' rot='90' filled='true' stroked='true' modelId='428' x='-329.0' y='-945.0'/>
+            <digitalEdgeView _id='1248' id='268' filled='true' stroked='true' modelId='429' layout='ortho' orig='1236' origPort='3' origPortOutput='true' dest='1247' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='-329.0,-714.0 -329.0,-889.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1249' id='269' filled='true' stroked='true' modelId='432' layout='ortho' orig='1227' origPort='4' origPortOutput='true' dest='1247' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-476.0,-714.0 -476.0,-798.0 -343.0,-798.0 -343.0,-889.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1250' id='270' filled='true' stroked='true' modelId='435' layout='ortho' orig='1223' origPort='3' origPortOutput='true' dest='1247' destPort='1' adjusted='true'>
+              <shape>
+                <polylineShape points='-637.0,-714.0 -637.0,-812.0 -357.0,-812.0 -357.0,-889.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1251' id='271' filled='true' stroked='true' modelId='438' layout='ortho' orig='1228' origPort='4' origPortOutput='true' dest='1247' destPort='4' adjusted='false'>
+              <shape>
+                <polylineShape points='-196.0,-714.0 -196.0,-798.0 -315.0,-798.0 -315.0,-889.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1252' id='272' filled='true' stroked='true' modelId='441' layout='ortho' orig='1242' origPort='3' origPortOutput='true' dest='1247' destPort='5' adjusted='true'>
+              <shape>
+                <polylineShape points='-35.0,-714.0 -35.0,-812.0 -301.0,-812.0 -301.0,-889.0'/>
+              </shape>
+            </digitalEdgeView>
+            <orGateView _id='1253' id='273' rot='90' filled='true' stroked='true' modelId='444' x='-308.0' y='-1085.0'/>
+            <digitalEdgeView _id='1254' id='274' filled='true' stroked='true' modelId='445' layout='ortho' orig='1247' origPort='6' origPortOutput='true' dest='1253' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-329.0,-939.0 -329.0,-980.0 -315.0,-980.0 -315.0,-1021.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1255' id='275' rot='0' filled='true' stroked='true' modelId='448' x='-280.0' y='-980.0' flowDir='out'/>
+            <digitalEdgeView _id='1256' id='276' filled='true' stroked='true' modelId='449' layout='ortho' orig='1255' origPort='1' origPortOutput='true' dest='1253' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='-266.0,-980.0 -301.0,-980.0 -301.0,-1021.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1257' id='277' rot='0' filled='true' stroked='true' modelId='452' x='-280.0' y='-1015.0' flowDir='out'/>
+            <digitalEdgeView _id='1258' id='278' filled='true' stroked='true' modelId='453' layout='ortho' orig='1257' origPort='1' origPortOutput='true' dest='1253' destPort='4' adjusted='false'>
+              <shape>
+                <polylineShape points='-266.0,-1015.0 -287.0,-1015.0 -287.0,-1021.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1259' id='279' rot='180' filled='true' stroked='true' modelId='456' x='-329.0' y='-1015.0' flowDir='out'/>
+            <digitalEdgeView _id='1260' id='280' filled='true' stroked='true' modelId='457' layout='ortho' orig='1259' origPort='1' origPortOutput='true' dest='1253' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-343.0,-1015.0 -329.0,-1015.0 -329.0,-1021.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1261' id='281' rot='90' filled='true' stroked='true' modelId='460' x='-308.0' y='-1099.0' flowDir='in'/>
+            <nandGateView _id='1262' id='283' rot='0' filled='true' stroked='true' modelId='461' x='-161.0' y='-336.0'/>
+            <tunnelView _id='1263' id='284' rot='180' filled='true' stroked='true' modelId='462' x='-231.0' y='-350.0' flowDir='out'/>
+            <digitalEdgeView _id='1264' id='285' filled='true' stroked='true' modelId='463' layout='ortho' orig='1263' origPort='1' origPortOutput='true' dest='1262' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-245.0,-350.0 -217.0,-350.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1265' id='286' rot='180' filled='true' stroked='true' modelId='466' x='-231.0' y='-322.0' flowDir='out'/>
+            <digitalEdgeView _id='1266' id='287' filled='true' stroked='true' modelId='467' layout='ortho' orig='1265' origPort='1' origPortOutput='true' dest='1262' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-245.0,-322.0 -217.0,-322.0'/>
+              </shape>
+            </digitalEdgeView>
+            <orGateView _id='1267' id='288' rot='0' filled='true' stroked='true' modelId='470' x='203.0' y='-357.0'/>
+            <tunnelView _id='1268' id='290' rot='180' filled='true' stroked='true' modelId='471' x='77.0' y='-350.0' flowDir='out'/>
+            <tunnelView _id='1269' id='292' rot='0' filled='true' stroked='true' modelId='472' x='210.0' y='-357.0' flowDir='in'/>
+            <digitalEdgeView _id='1270' id='293' filled='true' stroked='true' modelId='473' layout='ortho' orig='1269' origPort='1' origPortOutput='true' dest='1267' destPort='5' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='224.0,-357.0 189.0,-357.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1271' id='294' filled='true' stroked='true' modelId='476' layout='ortho' orig='1268' origPort='1' origPortOutput='true' dest='1267' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='63.0,-350.0 139.0,-350.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1272' id='295' filled='true' stroked='true' modelId='479' layout='ortho' orig='1262' origPort='3' origPortOutput='true' dest='1267' destPort='4' adjusted='false'>
+              <shape>
+                <polylineShape points='-167.0,-336.0 139.0,-336.0'/>
+              </shape>
+            </digitalEdgeView>
+            <orGateView _id='1273' id='296' rot='90' filled='true' stroked='true' modelId='482' x='343.0' y='-525.0'/>
+            <tunnelView _id='1274' id='297' rot='180' filled='true' stroked='true' modelId='483' x='329.0' y='-455.0' flowDir='out'/>
+            <digitalEdgeView _id='1275' id='298' filled='true' stroked='true' modelId='484' layout='ortho' orig='1274' origPort='1' origPortOutput='true' dest='1273' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='315.0,-455.0 329.0,-455.0 329.0,-461.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1276' id='299' rot='0' filled='true' stroked='true' modelId='487' x='357.0' y='-455.0' flowDir='out'/>
+            <digitalEdgeView _id='1277' id='300' filled='true' stroked='true' modelId='488' layout='ortho' orig='1276' origPort='1' origPortOutput='true' dest='1273' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='371.0,-455.0 357.0,-455.0 357.0,-461.0'/>
+              </shape>
+            </digitalEdgeView>
+            <nandGateView _id='1278' id='301' rot='90' filled='true' stroked='true' modelId='491' x='147.0' y='-728.0'/>
+            <nandGateView _id='1279' id='302' rot='90' filled='true' stroked='true' modelId='492' x='350.0' y='-728.0'/>
+            <digitalEdgeView _id='1280' id='303' filled='true' stroked='true' modelId='493' layout='ortho' orig='1273' origPort='3' origPortOutput='true' dest='1279' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='343.0,-511.0 343.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1281' id='305' filled='true' stroked='true' modelId='496' layout='ortho' orig='1282' origPort='1' origPortOutput='true' dest='1279' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='315.0,-637.0 329.0,-637.0 329.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1283' id='306' rot='0' filled='true' stroked='true' modelId='500' x='371.0' y='-658.0' flowDir='out'/>
+            <digitalEdgeView _id='1284' id='307' filled='true' stroked='true' modelId='501' layout='ortho' orig='1283' origPort='1' origPortOutput='true' dest='1279' destPort='4' adjusted='false'>
+              <shape>
+                <polylineShape points='385.0,-658.0 371.0,-658.0 371.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1285' id='308' rot='0' filled='true' stroked='true' modelId='504' x='371.0' y='-630.0' flowDir='out'/>
+            <digitalEdgeView _id='1286' id='309' filled='true' stroked='true' modelId='505' layout='ortho' orig='1285' origPort='1' origPortOutput='true' dest='1279' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='385.0,-630.0 357.0,-630.0 357.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1282' id='310' rot='180' filled='true' stroked='true' modelId='499' x='329.0' y='-637.0' flowDir='out'/>
+            <tunnelView _id='1287' id='311' rot='180' filled='true' stroked='true' modelId='508' x='126.0' y='-658.0' flowDir='out'/>
+            <digitalEdgeView _id='1288' id='312' filled='true' stroked='true' modelId='509' layout='ortho' orig='1287' origPort='1' origPortOutput='true' dest='1278' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='112.0,-658.0 126.0,-658.0 126.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1289' id='313' rot='180' filled='true' stroked='true' modelId='512' x='126.0' y='-630.0' flowDir='out'/>
+            <digitalEdgeView _id='1290' id='314' filled='true' stroked='true' modelId='513' layout='ortho' orig='1289' origPort='1' origPortOutput='true' dest='1278' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='112.0,-630.0 140.0,-630.0 140.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1291' id='315' rot='0' filled='true' stroked='true' modelId='516' x='168.0' y='-658.0' flowDir='out'/>
+            <digitalEdgeView _id='1292' id='316' filled='true' stroked='true' modelId='517' layout='ortho' orig='1291' origPort='1' origPortOutput='true' dest='1278' destPort='4' adjusted='false'>
+              <shape>
+                <polylineShape points='182.0,-658.0 168.0,-658.0 168.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1293' id='317' rot='0' filled='true' stroked='true' modelId='520' x='168.0' y='-616.0' flowDir='out'/>
+            <digitalEdgeView _id='1294' id='318' filled='true' stroked='true' modelId='521' layout='ortho' orig='1293' origPort='1' origPortOutput='true' dest='1278' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='182.0,-616.0 154.0,-616.0 154.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <notGateView _id='1295' id='321' rot='0' filled='true' stroked='true' modelId='533' x='112.0' y='-819.0'/>
+            <digitalEdgeView _id='1296' id='322' filled='true' stroked='true' modelId='534' layout='ortho' orig='1297' dest='1295' destPort='1' adjusted='true'>
+              <shape>
+                <polylineShape points='-308.0,-1092.0 -14.0,-1092.0 -14.0,-819.0 56.0,-819.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1298' id='323' filled='true' stroked='true' modelId='534' layout='ortho' orig='1253' origPort='5' origPortOutput='true' dest='1297' adjusted='false'>
+              <shape>
+                <polylineShape points='-308.0,-1071.0 -308.0,-1092.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalNodeView _id='1297' id='324' filled='true' stroked='true' modelId='534'>
+              <location>
+                <point x='-308.0' y='-1092.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1299' id='325' filled='true' stroked='true' modelId='534' layout='ortho' orig='1297' dest='1261' destPort='1' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='-308.0,-1092.0 -308.0,-1113.0'/>
+              </shape>
+            </digitalEdgeView>
+            <nandGateView _id='1300' id='326' rot='0' filled='true' stroked='true' modelId='538' x='490.0' y='-819.0'/>
+            <digitalEdgeView _id='1301' id='327' filled='true' stroked='true' modelId='539' layout='ortho' orig='1295' origPort='2' origPortOutput='true' dest='1302' adjusted='false'>
+              <shape>
+                <polylineShape points='106.0,-819.0 259.0,-819.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1303' id='328' rot='180' filled='true' stroked='true' modelId='543' x='420.0' y='-805.0' flowDir='out'/>
+            <digitalEdgeView _id='1304' id='329' filled='true' stroked='true' modelId='544' layout='ortho' orig='1303' origPort='1' origPortOutput='true' dest='1300' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='406.0,-805.0 434.0,-805.0'/>
+              </shape>
+            </digitalEdgeView>
+            <orGateView _id='1305' id='330' rot='90' filled='true' stroked='true' modelId='527' x='252.0' y='-1085.0'/>
+            <digitalEdgeView _id='1306' id='333' filled='true' stroked='true' modelId='524' layout='ortho' orig='1267' origPort='2' dest='1307' adjusted='true'>
+              <shape>
+                <polylineShape points='139.0,-364.0 14.0,-364.0 14.0,-743.0 147.0,-743.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalNodeView _id='1307' id='334' filled='true' stroked='true' modelId='524'>
+              <location>
+                <point x='147.0' y='-743.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1308' id='335' filled='true' stroked='true' modelId='524' layout='ortho' orig='1307' dest='1305' destPort='2' adjusted='true'>
+              <shape>
+                <polylineShape points='147.0,-743.0 182.0,-743.0 182.0,-840.0 245.0,-840.0 245.0,-1021.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1309' id='336' filled='true' stroked='true' modelId='524' layout='ortho' orig='1278' origPort='5' origPortOutput='true' dest='1307' adjusted='false'>
+              <shape>
+                <polylineShape points='147.0,-722.0 147.0,-743.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalNodeView _id='1302' id='337' filled='true' stroked='true' modelId='539'>
+              <location>
+                <point x='259.0' y='-819.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1310' id='338' filled='true' stroked='true' modelId='539' layout='ortho' orig='1302' dest='1300' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='259.0,-819.0 434.0,-819.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1311' id='339' filled='true' stroked='true' modelId='539' layout='ortho' orig='1302' dest='1305' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='259.0,-819.0 259.0,-1021.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1312' id='343' rot='180' filled='true' stroked='true' modelId='547' x='231.0' y='-1001.0' flowDir='out'/>
+            <digitalEdgeView _id='1313' id='344' filled='true' stroked='true' modelId='548' layout='ortho' orig='1312' origPort='1' origPortOutput='true' dest='1305' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='217.0,-1001.0 231.0,-1001.0 231.0,-1021.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1314' id='345' rot='90' filled='true' stroked='true' modelId='551' x='252.0' y='-1099.0' flowDir='in'/>
+            <digitalEdgeView _id='1315' id='346' filled='true' stroked='true' modelId='552' layout='ortho' orig='1314' origPort='1' origPortOutput='true' dest='1316' adjusted='false'>
+              <shape>
+                <polylineShape points='252.0,-1113.0 252.0,-1092.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalNodeView _id='1316' id='347' filled='true' stroked='true' modelId='552'>
+              <location>
+                <point x='252.0' y='-1092.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1317' id='348' filled='true' stroked='true' modelId='552' layout='ortho' orig='1316' dest='1305' destPort='5' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='252.0,-1092.0 252.0,-1071.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1318' id='349' filled='true' stroked='true' modelId='552' layout='ortho' orig='1316' dest='1300' destPort='1' adjusted='true'>
+              <shape>
+                <polylineShape points='252.0,-1092.0 315.0,-1092.0 315.0,-833.0 434.0,-833.0'/>
+              </shape>
+            </digitalEdgeView>
+            <orGateView _id='1319' id='350' rot='90' filled='true' stroked='true' modelId='556' x='567.0' y='-1085.0'/>
+            <digitalEdgeView _id='1320' id='351' filled='true' stroked='true' modelId='557' layout='ortho' orig='1300' origPort='4' origPortOutput='true' dest='1319' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='484.0,-819.0 553.0,-819.0 553.0,-1021.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1321' id='352' rot='90' filled='true' stroked='true' modelId='560' x='567.0' y='-1099.0' flowDir='in'/>
+            <digitalEdgeView _id='1322' id='353' filled='true' stroked='true' modelId='561' layout='ortho' orig='1321' origPort='1' origPortOutput='true' dest='1319' destPort='3' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='567.0,-1113.0 567.0,-1071.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1323' id='354' rot='90' filled='true' stroked='true' modelId='564' x='721.0' y='-728.0'/>
+            <tunnelView _id='1324' id='355' rot='270' filled='true' stroked='true' modelId='565' x='707.0' y='-672.0' flowDir='out'/>
+            <digitalEdgeView _id='1325' id='356' filled='true' stroked='true' modelId='566' layout='ortho' orig='1324' origPort='1' origPortOutput='true' dest='1323' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='707.0,-658.0 707.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1326' id='357' rot='270' filled='true' stroked='true' modelId='569' x='735.0' y='-623.0' flowDir='out'/>
+            <digitalEdgeView _id='1327' id='358' filled='true' stroked='true' modelId='570' layout='ortho' orig='1326' origPort='1' origPortOutput='true' dest='1323' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='735.0,-609.0 735.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1328' id='359' rot='90' filled='true' stroked='true' modelId='573' x='882.0' y='-581.0'/>
+            <tunnelView _id='1329' id='360' rot='180' filled='true' stroked='true' modelId='574' x='868.0' y='-504.0' flowDir='out'/>
+            <digitalEdgeView _id='1330' id='361' filled='true' stroked='true' modelId='575' layout='ortho' orig='1329' origPort='1' origPortOutput='true' dest='1328' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='854.0,-504.0 868.0,-504.0 868.0,-525.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1331' id='362' rot='0' filled='true' stroked='true' modelId='578' x='896.0' y='-504.0' flowDir='out'/>
+            <digitalEdgeView _id='1332' id='363' filled='true' stroked='true' modelId='579' layout='ortho' orig='1331' origPort='1' origPortOutput='true' dest='1328' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='910.0,-504.0 896.0,-504.0 896.0,-525.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1333' id='364' rot='90' filled='true' stroked='true' modelId='582' x='980.0' y='-728.0'/>
+            <tunnelView _id='1334' id='365' rot='270' filled='true' stroked='true' modelId='583' x='938.0' y='-672.0' flowDir='out'/>
+            <digitalEdgeView _id='1335' id='366' filled='true' stroked='true' modelId='584' layout='ortho' orig='1334' origPort='1' origPortOutput='true' dest='1333' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='938.0,-658.0 938.0,-665.0 966.0,-665.0 966.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1336' id='367' rot='270' filled='true' stroked='true' modelId='587' x='980.0' y='-651.0' flowDir='out'/>
+            <digitalEdgeView _id='1337' id='368' filled='true' stroked='true' modelId='588' layout='ortho' orig='1336' origPort='1' origPortOutput='true' dest='1333' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='980.0,-637.0 980.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1338' id='369' rot='270' filled='true' stroked='true' modelId='591' x='1036.0' y='-609.0' flowDir='out'/>
+            <digitalEdgeView _id='1339' id='370' filled='true' stroked='true' modelId='592' layout='ortho' orig='1338' origPort='1' origPortOutput='true' dest='1333' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='1036.0,-595.0 1036.0,-630.0 994.0,-630.0 994.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1340' id='371' rot='90' filled='true' stroked='true' modelId='595' x='1197.0' y='-728.0'/>
+            <tunnelView _id='1341' id='372' rot='180' filled='true' stroked='true' modelId='596' x='1183.0' y='-651.0' flowDir='out'/>
+            <digitalEdgeView _id='1342' id='373' filled='true' stroked='true' modelId='597' layout='ortho' orig='1341' origPort='1' origPortOutput='true' dest='1340' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1169.0,-651.0 1183.0,-651.0 1183.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1343' id='374' rot='0' filled='true' stroked='true' modelId='600' x='1211.0' y='-651.0' flowDir='out'/>
+            <digitalEdgeView _id='1344' id='375' filled='true' stroked='true' modelId='601' layout='ortho' orig='1343' origPort='1' origPortOutput='true' dest='1340' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1225.0,-651.0 1211.0,-651.0 1211.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1345' id='380' rot='90' filled='true' stroked='true' modelId='604' x='1435.0' y='-728.0'/>
+            <norGateView _id='1346' id='381' rot='90' filled='true' stroked='true' modelId='605' x='980.0' y='-945.0'/>
+            <digitalEdgeView _id='1347' id='382' filled='true' stroked='true' modelId='606' layout='ortho' orig='1333' origPort='4' origPortOutput='true' dest='1346' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='980.0,-714.0 980.0,-889.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1348' id='383' filled='true' stroked='true' modelId='609' layout='ortho' orig='1323' origPort='3' origPortOutput='true' dest='1346' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='721.0,-714.0 721.0,-798.0 952.0,-798.0 952.0,-889.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1349' id='384' filled='true' stroked='true' modelId='612' layout='ortho' orig='1328' origPort='3' origPortOutput='true' dest='1346' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='882.0,-567.0 882.0,-728.0 966.0,-728.0 966.0,-889.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1350' id='385' filled='true' stroked='true' modelId='615' layout='ortho' orig='1340' origPort='3' origPortOutput='true' dest='1346' destPort='4' adjusted='true'>
+              <shape>
+                <polylineShape points='1197.0,-714.0 1197.0,-728.0 994.0,-728.0 994.0,-889.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1351' id='386' filled='true' stroked='true' modelId='618' layout='ortho' orig='1345' origPort='3' origPortOutput='true' dest='1346' destPort='5' adjusted='true'>
+              <shape>
+                <polylineShape points='1435.0,-714.0 1435.0,-798.0 1008.0,-798.0 1008.0,-889.0'/>
+              </shape>
+            </digitalEdgeView>
+            <notGateView _id='1352' id='387' rot='90' filled='true' stroked='true' modelId='621' x='980.0' y='-1078.0'/>
+            <digitalEdgeView _id='1353' id='388' filled='true' stroked='true' modelId='622' layout='ortho' orig='1346' origPort='6' origPortOutput='true' dest='1354' adjusted='false'>
+              <shape>
+                <polylineShape points='980.0,-939.0 980.0,-980.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1355' id='389' rot='90' filled='true' stroked='true' modelId='626' x='980.0' y='-1099.0' flowDir='in'/>
+            <digitalEdgeView _id='1356' id='390' filled='true' stroked='true' modelId='627' layout='ortho' orig='1355' origPort='1' origPortOutput='true' dest='1352' destPort='2' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='980.0,-1113.0 980.0,-1072.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalNodeView _id='1354' id='391' filled='true' stroked='true' modelId='622'>
+              <location>
+                <point x='980.0' y='-980.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1357' id='392' filled='true' stroked='true' modelId='622' layout='ortho' orig='1354' dest='1352' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='980.0,-980.0 980.0,-1022.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1358' id='393' filled='true' stroked='true' modelId='622' layout='ortho' orig='1354' dest='1319' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='980.0,-980.0 581.0,-980.0 581.0,-1021.0'/>
+              </shape>
+            </digitalEdgeView>
+            <notGateView _id='1359' id='394' rot='0' filled='true' stroked='true' modelId='630' x='756.0' y='-350.0'/>
+            <tunnelView _id='1360' id='395' rot='180' filled='true' stroked='true' modelId='631' x='686.0' y='-350.0' flowDir='out'/>
+            <digitalEdgeView _id='1361' id='396' filled='true' stroked='true' modelId='632' layout='ortho' orig='1360' origPort='1' origPortOutput='true' dest='1359' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='672.0,-350.0 700.0,-350.0'/>
+              </shape>
+            </digitalEdgeView>
+            <notGateView _id='1362' id='397' rot='0' filled='true' stroked='true' modelId='635' x='1218.0' y='-350.0'/>
+            <digitalEdgeView _id='1363' id='398' filled='true' stroked='true' modelId='636' layout='ortho' orig='1359' origPort='2' origPortOutput='true' dest='1362' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='750.0,-350.0 1162.0,-350.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1364' id='399' rot='0' filled='true' stroked='true' modelId='639' x='1218.0' y='-350.0' flowDir='in'/>
+            <digitalEdgeView _id='1365' id='400' filled='true' stroked='true' modelId='640' layout='ortho' orig='1364' origPort='1' origPortOutput='true' dest='1362' destPort='2' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='1232.0,-350.0 1212.0,-350.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1366' id='401' rot='90' filled='true' stroked='true' modelId='643' x='1435.0' y='-588.0'/>
+            <tunnelView _id='1367' id='402' rot='180' filled='true' stroked='true' modelId='644' x='1421.0' y='-518.0' flowDir='out'/>
+            <digitalEdgeView _id='1368' id='403' filled='true' stroked='true' modelId='645' layout='ortho' orig='1367' origPort='1' origPortOutput='true' dest='1366' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1407.0,-518.0 1421.0,-518.0 1421.0,-532.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1369' id='404' rot='180' filled='true' stroked='true' modelId='648' x='1421.0' y='-476.0' flowDir='in'/>
+            <digitalEdgeView _id='1370' id='405' filled='true' stroked='true' modelId='649' layout='ortho' orig='1369' origPort='1' origPortOutput='true' dest='1371' adjusted='false'>
+              <shape>
+                <polylineShape points='1407.0,-476.0 1449.0,-476.0'/>
+              </shape>
+            </digitalEdgeView>
+            <notGateView _id='1372' id='406' rot='90' filled='true' stroked='true' modelId='653' x='1449.0' y='-462.0'/>
+            <tunnelView _id='1373' id='407' rot='270' filled='true' stroked='true' modelId='654' x='1449.0' y='-392.0' flowDir='out'/>
+            <digitalEdgeView _id='1374' id='408' filled='true' stroked='true' modelId='655' layout='ortho' orig='1373' origPort='1' origPortOutput='true' dest='1372' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1449.0,-378.0 1449.0,-406.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalNodeView _id='1371' id='409' filled='true' stroked='true' modelId='649'>
+              <location>
+                <point x='1449.0' y='-476.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1375' id='410' filled='true' stroked='true' modelId='649' layout='ortho' orig='1371' dest='1366' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1449.0,-476.0 1449.0,-532.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1376' id='411' filled='true' stroked='true' modelId='649' layout='ortho' orig='1372' origPort='2' origPortOutput='true' dest='1371' adjusted='false'>
+              <shape>
+                <polylineShape points='1449.0,-456.0 1449.0,-476.0'/>
+              </shape>
+            </digitalEdgeView>
+            <notGateView _id='1377' id='412' rot='90' filled='true' stroked='true' modelId='658' x='1589.0' y='-462.0'/>
+            <nandGateView _id='1378' id='413' rot='90' filled='true' stroked='true' modelId='659' x='1589.0' y='-336.0'/>
+            <digitalEdgeView _id='1379' id='414' filled='true' stroked='true' modelId='660' layout='ortho' orig='1378' origPort='5' origPortOutput='true' dest='1377' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1589.0,-330.0 1589.0,-406.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1380' id='415' rot='180' filled='true' stroked='true' modelId='663' x='1568.0' y='-266.0' flowDir='out'/>
+            <digitalEdgeView _id='1381' id='416' filled='true' stroked='true' modelId='664' layout='ortho' orig='1380' origPort='1' origPortOutput='true' dest='1378' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1554.0,-266.0 1568.0,-266.0 1568.0,-280.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1382' id='417' rot='180' filled='true' stroked='true' modelId='667' x='1568.0' y='-238.0' flowDir='out'/>
+            <digitalEdgeView _id='1383' id='418' filled='true' stroked='true' modelId='668' layout='ortho' orig='1382' origPort='1' origPortOutput='true' dest='1378' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1554.0,-238.0 1582.0,-238.0 1582.0,-280.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1384' id='419' rot='270' filled='true' stroked='true' modelId='671' x='1596.0' y='-245.0' flowDir='out'/>
+            <digitalEdgeView _id='1385' id='420' filled='true' stroked='true' modelId='672' layout='ortho' orig='1384' origPort='1' origPortOutput='true' dest='1378' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='1596.0,-231.0 1596.0,-280.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1386' id='421' rot='0' filled='true' stroked='true' modelId='675' x='1610.0' y='-252.0' flowDir='out'/>
+            <digitalEdgeView _id='1387' id='422' filled='true' stroked='true' modelId='676' layout='ortho' orig='1386' origPort='1' origPortOutput='true' dest='1378' destPort='4' adjusted='false'>
+              <shape>
+                <polylineShape points='1624.0,-252.0 1610.0,-252.0 1610.0,-280.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1388' id='423' rot='90' filled='true' stroked='true' modelId='679' x='1603.0' y='-588.0'/>
+            <digitalEdgeView _id='1389' id='424' filled='true' stroked='true' modelId='680' layout='ortho' orig='1377' origPort='2' origPortOutput='true' dest='1390' adjusted='false'>
+              <shape>
+                <polylineShape points='1589.0,-456.0 1589.0,-490.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1391' id='425' rot='180' filled='true' stroked='true' modelId='684' x='1568.0' y='-490.0' flowDir='in'/>
+            <digitalNodeView _id='1390' id='426' filled='true' stroked='true' modelId='680'>
+              <location>
+                <point x='1589.0' y='-490.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1392' id='427' filled='true' stroked='true' modelId='680' layout='ortho' orig='1390' dest='1388' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1589.0,-490.0 1589.0,-532.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1393' id='428' filled='true' stroked='true' modelId='680' layout='ortho' orig='1391' origPort='1' origPortOutput='true' dest='1390' adjusted='false'>
+              <shape>
+                <polylineShape points='1554.0,-490.0 1589.0,-490.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1394' id='429' rot='0' filled='true' stroked='true' modelId='685' x='1617.0' y='-518.0' flowDir='out'/>
+            <digitalEdgeView _id='1395' id='430' filled='true' stroked='true' modelId='686' layout='ortho' orig='1394' origPort='1' origPortOutput='true' dest='1388' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='1631.0,-518.0 1617.0,-518.0 1617.0,-532.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1396' id='431' rot='0' filled='true' stroked='true' modelId='689' x='1617.0' y='-490.0' flowDir='out'/>
+            <digitalEdgeView _id='1397' id='432' filled='true' stroked='true' modelId='690' layout='ortho' orig='1396' origPort='1' origPortOutput='true' dest='1388' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1631.0,-490.0 1603.0,-490.0 1603.0,-532.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1398' id='433' rot='90' filled='true' stroked='true' modelId='693' x='1890.0' y='-588.0'/>
+            <tunnelView _id='1399' id='434' rot='270' filled='true' stroked='true' modelId='694' x='1876.0' y='-532.0' flowDir='out'/>
+            <digitalEdgeView _id='1400' id='435' filled='true' stroked='true' modelId='695' layout='ortho' orig='1399' origPort='1' origPortOutput='true' dest='1398' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1876.0,-518.0 1876.0,-532.0'/>
+              </shape>
+            </digitalEdgeView>
+            <norGateView _id='1401' id='436' rot='90' filled='true' stroked='true' modelId='698' x='1904.0' y='-469.0'/>
+            <digitalEdgeView _id='1402' id='437' filled='true' stroked='true' modelId='699' layout='ortho' orig='1401' origPort='3' origPortOutput='true' dest='1398' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1904.0,-463.0 1904.0,-532.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1403' id='438' rot='90' filled='true' stroked='true' modelId='702' x='1834.0' y='-336.0'/>
+            <andGateView _id='1404' id='439' rot='90' filled='true' stroked='true' modelId='703' x='1974.0' y='-336.0'/>
+            <digitalEdgeView _id='1405' id='440' filled='true' stroked='true' modelId='704' layout='ortho' orig='1403' origPort='3' origPortOutput='true' dest='1401' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1834.0,-322.0 1834.0,-364.0 1890.0,-364.0 1890.0,-413.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1406' id='441' filled='true' stroked='true' modelId='707' layout='ortho' orig='1404' origPort='3' origPortOutput='true' dest='1401' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1974.0,-322.0 1974.0,-364.0 1918.0,-364.0 1918.0,-413.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1407' id='442' rot='0' filled='true' stroked='true' modelId='710' x='1848.0' y='-266.0' flowDir='out'/>
+            <digitalEdgeView _id='1408' id='443' filled='true' stroked='true' modelId='711' layout='ortho' orig='1407' origPort='1' origPortOutput='true' dest='1403' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1862.0,-266.0 1848.0,-266.0 1848.0,-280.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1409' id='444' rot='0' filled='true' stroked='true' modelId='714' x='1848.0' y='-238.0' flowDir='out'/>
+            <digitalEdgeView _id='1410' id='445' filled='true' stroked='true' modelId='715' layout='ortho' orig='1409' origPort='1' origPortOutput='true' dest='1403' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1862.0,-238.0 1820.0,-238.0 1820.0,-280.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1411' id='446' rot='0' filled='true' stroked='true' modelId='718' x='1988.0' y='-266.0' flowDir='out'/>
+            <digitalEdgeView _id='1412' id='447' filled='true' stroked='true' modelId='719' layout='ortho' orig='1411' origPort='1' origPortOutput='true' dest='1404' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='2002.0,-266.0 1988.0,-266.0 1988.0,-280.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1413' id='448' rot='0' filled='true' stroked='true' modelId='722' x='1988.0' y='-238.0' flowDir='out'/>
+            <digitalEdgeView _id='1414' id='449' filled='true' stroked='true' modelId='723' layout='ortho' orig='1413' origPort='1' origPortOutput='true' dest='1404' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='2002.0,-238.0 1960.0,-238.0 1960.0,-280.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1415' id='450' rot='90' filled='true' stroked='true' modelId='726' x='2086.0' y='-588.0'/>
+            <tunnelView _id='1416' id='451' rot='180' filled='true' stroked='true' modelId='727' x='2072.0' y='-504.0' flowDir='out'/>
+            <digitalEdgeView _id='1417' id='452' filled='true' stroked='true' modelId='728' layout='ortho' orig='1416' origPort='1' origPortOutput='true' dest='1415' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='2058.0,-504.0 2072.0,-504.0 2072.0,-532.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1418' id='453' rot='270' filled='true' stroked='true' modelId='731' x='2086.0' y='-511.0' flowDir='out'/>
+            <digitalEdgeView _id='1419' id='454' filled='true' stroked='true' modelId='732' layout='ortho' orig='1418' origPort='1' origPortOutput='true' dest='1415' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='2086.0,-497.0 2086.0,-532.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1420' id='455' rot='0' filled='true' stroked='true' modelId='735' x='2100.0' y='-504.0' flowDir='out'/>
+            <digitalEdgeView _id='1421' id='456' filled='true' stroked='true' modelId='736' layout='ortho' orig='1420' origPort='1' origPortOutput='true' dest='1415' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='2114.0,-504.0 2100.0,-504.0 2100.0,-532.0'/>
+              </shape>
+            </digitalEdgeView>
+            <norGateView _id='1422' id='457' rot='90' filled='true' stroked='true' modelId='739' x='1750.0' y='-728.0'/>
+            <digitalEdgeView _id='1423' id='458' filled='true' stroked='true' modelId='740' layout='ortho' orig='1366' origPort='3' origPortOutput='true' dest='1422' destPort='1' adjusted='true'>
+              <shape>
+                <polylineShape points='1435.0,-574.0 1435.0,-630.0 1729.0,-630.0 1729.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1424' id='459' filled='true' stroked='true' modelId='743' layout='ortho' orig='1388' origPort='4' origPortOutput='true' dest='1422' destPort='2' adjusted='true'>
+              <shape>
+                <polylineShape points='1603.0,-574.0 1603.0,-602.0 1743.0,-602.0 1743.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1425' id='460' filled='true' stroked='true' modelId='746' layout='ortho' orig='1398' origPort='3' origPortOutput='true' dest='1422' destPort='3' adjusted='true'>
+              <shape>
+                <polylineShape points='1890.0,-574.0 1890.0,-602.0 1757.0,-602.0 1757.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1426' id='461' filled='true' stroked='true' modelId='749' layout='ortho' orig='1415' origPort='4' origPortOutput='true' dest='1422' destPort='4' adjusted='true'>
+              <shape>
+                <polylineShape points='2086.0,-574.0 2086.0,-630.0 1771.0,-630.0 1771.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <orGateView _id='1427' id='462' rot='90' filled='true' stroked='true' modelId='752' x='1897.0' y='-1085.0'/>
+            <tunnelView _id='1428' id='463' rot='90' filled='true' stroked='true' modelId='753' x='1897.0' y='-1099.0' flowDir='in'/>
+            <digitalEdgeView _id='1429' id='464' filled='true' stroked='true' modelId='754' layout='ortho' orig='1428' origPort='1' origPortOutput='true' dest='1427' destPort='5' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='1897.0,-1113.0 1897.0,-1071.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1430' id='465' filled='true' stroked='true' modelId='757' layout='ortho' orig='1422' origPort='5' origPortOutput='true' dest='1427' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1750.0,-722.0 1750.0,-868.0 1890.0,-868.0 1890.0,-1021.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1431' id='466' rot='180' filled='true' stroked='true' modelId='760' x='1876.0' y='-1008.0' flowDir='out'/>
+            <digitalEdgeView _id='1432' id='467' filled='true' stroked='true' modelId='761' layout='ortho' orig='1431' origPort='1' origPortOutput='true' dest='1427' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1862.0,-1008.0 1876.0,-1008.0 1876.0,-1021.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1433' id='468' rot='0' filled='true' stroked='true' modelId='764' x='1918.0' y='-1008.0' flowDir='out'/>
+            <digitalEdgeView _id='1434' id='469' filled='true' stroked='true' modelId='765' layout='ortho' orig='1433' origPort='1' origPortOutput='true' dest='1427' destPort='4' adjusted='false'>
+              <shape>
+                <polylineShape points='1932.0,-1008.0 1918.0,-1008.0 1918.0,-1021.0'/>
+              </shape>
+            </digitalEdgeView>
+            <nandGateView _id='1435' id='470' rot='90' filled='true' stroked='true' modelId='768' x='1946.0' y='-952.0'/>
+            <digitalEdgeView _id='1436' id='471' filled='true' stroked='true' modelId='769' layout='ortho' orig='1435' origPort='4' origPortOutput='true' dest='1437' adjusted='false'>
+              <shape>
+                <polylineShape points='1946.0,-946.0 1946.0,-980.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1438' id='472' rot='270' filled='true' stroked='true' modelId='774' x='1918.0' y='-882.0' flowDir='out'/>
+            <digitalEdgeView _id='1439' id='473' filled='true' stroked='true' modelId='775' layout='ortho' orig='1438' origPort='1' origPortOutput='true' dest='1435' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1918.0,-868.0 1918.0,-882.0 1932.0,-882.0 1932.0,-896.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1440' id='474' rot='270' filled='true' stroked='true' modelId='778' x='1946.0' y='-798.0' flowDir='out'/>
+            <digitalEdgeView _id='1441' id='475' filled='true' stroked='true' modelId='779' layout='ortho' orig='1440' origPort='1' origPortOutput='true' dest='1435' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1946.0,-784.0 1946.0,-896.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1442' id='476' rot='270' filled='true' stroked='true' modelId='782' x='2009.0' y='-882.0' flowDir='out'/>
+            <digitalEdgeView _id='1443' id='477' filled='true' stroked='true' modelId='783' layout='ortho' orig='1442' origPort='1' origPortOutput='true' dest='1435' destPort='3' adjusted='false'>
+              <shape>
+                <polylineShape points='2009.0,-868.0 2009.0,-882.0 1960.0,-882.0 1960.0,-896.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='1444' id='478' rot='0' filled='true' stroked='true' modelId='773' x='1981.0' y='-980.0' flowDir='in'/>
+            <digitalNodeView _id='1437' id='479' filled='true' stroked='true' modelId='769'>
+              <location>
+                <point x='1946.0' y='-980.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1445' id='480' filled='true' stroked='true' modelId='769' layout='ortho' orig='1437' dest='1427' destPort='3' adjusted='true'>
+              <shape>
+                <polylineShape points='1946.0,-980.0 1904.0,-980.0 1904.0,-1021.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1446' id='481' filled='true' stroked='true' modelId='769' layout='ortho' orig='1444' origPort='1' origPortOutput='true' dest='1437' adjusted='false'>
+              <shape>
+                <polylineShape points='1995.0,-980.0 1946.0,-980.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1447' id='483' filled='true' stroked='true' modelId='529' layout='ortho' orig='1279' origPort='5' origPortOutput='true' dest='1448' adjusted='false'>
+              <shape>
+                <polylineShape points='350.0,-722.0 350.0,-743.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalNodeView _id='1448' id='484' filled='true' stroked='true' modelId='529'>
+              <location>
+                <point x='350.0' y='-743.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='1449' id='485' filled='true' stroked='true' modelId='529' layout='ortho' orig='1448' dest='1305' destPort='4' adjusted='true'>
+              <shape>
+                <polylineShape points='350.0,-743.0 273.0,-743.0 273.0,-1021.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1450' id='486' filled='true' stroked='true' modelId='529' layout='ortho' orig='1448' dest='1267' destPort='1' adjusted='true'>
+              <shape>
+                <polylineShape points='350.0,-743.0 546.0,-743.0 546.0,-406.0 119.0,-406.0 119.0,-378.0 139.0,-378.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1451' id='487' filled='true' stroked='true' modelId='786' layout='ortho' orig='1042' origPort='1' origPortOutput='true' dest='1033' destPort='5' adjusted='false'>
+              <shape>
+                <polylineShape points='-420.0,-28.0 -448.0,-28.0 -448.0,8.0 -469.0,8.0 -469.0,-6.0'/>
+              </shape>
+            </digitalEdgeView>
+            <andGateView _id='1154' id='488' rot='90' filled='true' stroked='true' modelId='261' x='1442.0' y='280.0'/>
+            <andGateView _id='1167' id='489' rot='90' filled='true' stroked='true' modelId='286' x='1715.0' y='280.0'/>
+            <powerView _id='1452' id='490' rot='90' filled='true' stroked='true' modelId='789' x='1701.0' y='336.0'/>
+            <digitalEdgeView _id='1453' id='491' filled='true' stroked='true' modelId='790' layout='ortho' orig='1452' origPort='1' origPortOutput='true' dest='1167' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1701.0,350.0 1701.0,336.0'/>
+              </shape>
+            </digitalEdgeView>
+            <powerView _id='1454' id='492' rot='90' filled='true' stroked='true' modelId='793' x='1428.0' y='336.0'/>
+            <digitalEdgeView _id='1455' id='493' filled='true' stroked='true' modelId='794' layout='ortho' orig='1454' origPort='1' origPortOutput='true' dest='1154' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1428.0,350.0 1428.0,336.0'/>
+              </shape>
+            </digitalEdgeView>
+            <groundView _id='1456' id='494' rot='90' filled='true' stroked='true' modelId='797' x='-315.0' y='-672.0'/>
+            <digitalEdgeView _id='1457' id='495' filled='true' stroked='true' modelId='798' layout='ortho' orig='1456' origPort='1' origPortOutput='true' dest='1236' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='-315.0,-658.0 -315.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <powerView _id='1458' id='496' rot='90' filled='true' stroked='true' modelId='801' x='-343.0' y='-672.0'/>
+            <digitalEdgeView _id='1459' id='497' filled='true' stroked='true' modelId='802' layout='ortho' orig='1458' origPort='1' origPortOutput='true' dest='1236' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='-343.0,-658.0 -343.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <groundView _id='1460' id='498' rot='90' filled='true' stroked='true' modelId='805' x='1421.0' y='-672.0'/>
+            <powerView _id='1461' id='499' rot='90' filled='true' stroked='true' modelId='806' x='1449.0' y='-672.0'/>
+            <digitalEdgeView _id='1462' id='500' filled='true' stroked='true' modelId='807' layout='ortho' orig='1460' origPort='1' origPortOutput='true' dest='1345' destPort='1' adjusted='false'>
+              <shape>
+                <polylineShape points='1421.0,-658.0 1421.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='1463' id='501' filled='true' stroked='true' modelId='810' layout='ortho' orig='1461' origPort='1' origPortOutput='true' dest='1345' destPort='2' adjusted='false'>
+              <shape>
+                <polylineShape points='1449.0,-658.0 1449.0,-672.0'/>
+              </shape>
+            </digitalEdgeView>
+          </components>
+        </graphView>
+      </view>
+    </graphStorable>
+  </graph>
+  <container>
+    <containerDrawing _id='1464'>
+      <components>
+        <rectangle _id='1465' id='1' style='figure' filled='true' stroked='true' x='0.0' y='-14.0' w='56.0' h='56.0'/>
+        <label _id='1466' id='2' rot='0'>
+          <text>
+            <translation lang='en' text='ROG'/>
+          </text>
+          <location>
+            <point x='28.0' y='14.0'/>
+          </location>
+        </label>
+        <originIndicator _id='1467' id='3'>
+          <location>
+            <point x='-14.0' y='0.0'/>
+          </location>
+        </originIndicator>
+      </components>
+      <model>
+        <subGraphVertice _id='1468' id='0' delay='0' uuid='ffcbfb75-e595-48fe-8766-0cb05ff7a99f'>
+          <name>
+            <translation lang='en' text='Reg Output Gate Control'/>
+          </name>
+          <ports/>
+        </subGraphVertice>
+      </model>
+    </containerDrawing>
+  </container>
+</metaGraph>

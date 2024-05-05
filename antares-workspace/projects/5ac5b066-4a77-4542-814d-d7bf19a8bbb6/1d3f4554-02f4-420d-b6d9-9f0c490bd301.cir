@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metaGraph _id='0' manualContainer='true'>
+  <graph>
+    <graphStorable _id='1'>
+      <model>
+        <graph _id='2' type='digital'>
+          <elements>
+            <tunnel _id='3' id='1' delay='0' name='!(MP SKIP)' bitWidth='1' global='true'/>
+            <power _id='4' id='2' delay='1' bitWidth='1'/>
+            <digitalNet _id='5' id='3' delay='0'>
+              <ports>
+                <netPortRef _id='6' verticeId='4' portId='1'/>
+                <netPortRef _id='7' verticeId='3' portId='1'/>
+                <netPortRef _id='8' verticeId='9' portId='1'/>
+              </ports>
+            </digitalNet>
+            <tunnel _id='9' id='4' delay='0' name='!(MP INT)' bitWidth='1' global='true'/>
+          </elements>
+        </graph>
+      </model>
+      <view>
+        <graphView _id='10'>
+          <netViews>
+            <netView _id='11' modelId='5' style='line'/>
+          </netViews>
+          <components>
+            <tunnelView _id='12' id='1' rot='0' filled='true' stroked='true' modelId='3' x='161.0' y='-140.0' flowDir='in'/>
+            <powerView _id='13' id='2' rot='270' filled='true' stroked='true' modelId='4' x='154.0' y='-168.0'/>
+            <digitalEdgeView _id='14' id='3' filled='true' stroked='true' modelId='5' layout='ortho' orig='13' origPort='1' origPortOutput='true' dest='15' adjusted='false'>
+              <shape>
+                <polylineShape points='154.0,-182.0 154.0,-140.0'/>
+              </shape>
+            </digitalEdgeView>
+            <tunnelView _id='16' id='4' rot='0' filled='true' stroked='true' modelId='9' x='161.0' y='-112.0' flowDir='in'/>
+            <digitalNodeView _id='15' id='5' filled='true' stroked='true' modelId='5'>
+              <location>
+                <point x='154.0' y='-140.0'/>
+              </location>
+            </digitalNodeView>
+            <digitalEdgeView _id='17' id='6' filled='true' stroked='true' modelId='5' layout='ortho' orig='15' dest='12' destPort='1' destPortOutput='true' adjusted='false'>
+              <shape>
+                <polylineShape points='154.0,-140.0 175.0,-140.0'/>
+              </shape>
+            </digitalEdgeView>
+            <digitalEdgeView _id='18' id='7' filled='true' stroked='true' modelId='5' layout='ortho' orig='16' origPort='1' origPortOutput='true' dest='15' adjusted='false'>
+              <shape>
+                <polylineShape points='175.0,-112.0 154.0,-112.0 154.0,-140.0'/>
+              </shape>
+            </digitalEdgeView>
+          </components>
+        </graphView>
+      </view>
+    </graphStorable>
+  </graph>
+  <container>
+    <containerDrawing _id='19'>
+      <components>
+        <rectangle _id='20' id='1' style='figure' filled='true' stroked='true' x='140.0' y='140.0' w='56.0' h='56.0'/>
+        <originIndicator _id='21' id='2'>
+          <location>
+            <point x='140.0' y='140.0'/>
+          </location>
+        </originIndicator>
+        <label _id='22' id='3' rot='0'>
+          <text>
+            <translation lang='en' text='NoMP8I'/>
+          </text>
+          <location>
+            <point x='168.0' y='168.0'/>
+          </location>
+        </label>
+      </components>
+      <model>
+        <subGraphVertice _id='23' id='0' delay='0' uuid='1d3f4554-02f4-420d-b6d9-9f0c490bd301'>
+          <name>
+            <translation lang='en' text='NoMP8I'/>
+          </name>
+          <ports/>
+        </subGraphVertice>
+      </model>
+    </containerDrawing>
+  </container>
+</metaGraph>

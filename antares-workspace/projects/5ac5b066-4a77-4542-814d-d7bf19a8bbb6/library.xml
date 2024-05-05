@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project _id='0' defaultElement='600823af-d4ec-4584-a8df-32e654d61251' uuid='5ac5b066-4a77-4542-814d-d7bf19a8bbb6' author='7e840175-f9c4-4886-a221-ef91e3493e27' imports='6707f981-110d-4629-a0bf-c35a4688025c'>
+  <folder>
+    <libraryFolder _id='1'>
+      <name>
+        <translation lang='en' text='PDP-8/I'/>
+      </name>
+      <items>
+        <containerLibraryElement _id='2' uuid='600823af-d4ec-4584-a8df-32e654d61251' type='digital'>
+          <name>
+            <translation lang='en' text='Top'/>
+          </name>
+        </containerLibraryElement>
+        <containerLibraryElement _id='3' uuid='e672a252-72b3-4a3d-ab7f-60472e897c59' type='digital'>
+          <name>
+            <translation lang='en' text='Console'/>
+          </name>
+        </containerLibraryElement>
+        <containerLibraryElement _id='4' uuid='765582a3-b1e5-4851-b16a-f7ff4545e2cc' type='digital'>
+          <name>
+            <translation lang='en' text='Core Memory'/>
+          </name>
+        </containerLibraryElement>
+        <containerLibraryElement _id='5' uuid='ec56c57c-1ce7-4493-8551-d6686a47cd97' type='digital'>
+          <name>
+            <translation lang='en' text='External I/O'/>
+          </name>
+        </containerLibraryElement>
+        <libraryFolder _id='6'>
+          <name>
+            <translation lang='en' text='CPU'/>
+          </name>
+          <items>
+            <containerLibraryElement _id='7' uuid='fd2caa0d-7c4e-41c6-8dfa-9f507b5a6691' type='digital'>
+              <name>
+                <translation lang='en' text='Timing, Manual Functions &amp; Run'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='8' uuid='0a420143-5568-4f4e-8dee-09988817d324' type='digital'>
+              <name>
+                <translation lang='en' text='Instruction Reg &amp; Major States'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='9' uuid='ffcbfb75-e595-48fe-8766-0cb05ff7a99f' type='digital'>
+              <name>
+                <translation lang='en' text='Reg Output Gate Control'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='10' uuid='4772ac9d-6884-4641-804d-7226f070386b' type='digital'>
+              <name>
+                <translation lang='en' text='Shift &amp; Carry Gate Control'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='11' uuid='3a6d4458-0fcf-456c-8948-e065f98e07e1' type='digital'>
+              <name>
+                <translation lang='en' text='Reg Input Control &amp; Skip'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='12' uuid='15992e33-dd15-44a7-ab47-6ca0f9f610e2' type='digital'>
+              <name>
+                <translation lang='en' text='Interrupt &amp; Break Control'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='13' uuid='52f7341c-f320-4cfa-a001-74c7d96e5249' type='digital'>
+              <name>
+                <translation lang='en' text='Major Registers'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='14' uuid='f9d7c2c9-5182-4b85-bbe7-df8f4107b3e3' type='digital'>
+              <name>
+                <translation lang='en' text='Major Register Gating'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='15' uuid='0db19b22-947f-412c-bd54-db7d96da7d38' type='digital'>
+              <name>
+                <translation lang='en' text='Teletype Transmitter'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='16' uuid='46c3e613-b490-4a55-8766-2bf9977844f7' type='digital'>
+              <name>
+                <translation lang='en' text='Teletype Receiver'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='17' uuid='d4be2a52-1532-4f0e-bb9d-cb755c0348e4' type='digital'>
+              <name>
+                <translation lang='en' text='Memory Control'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='18' uuid='da04feca-467d-4416-99b2-9e7b6b970a02' type='digital'>
+              <name>
+                <translation lang='en' text='Sense Amps'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='19' uuid='9e052922-aedf-4cda-86b1-4451a8a3447d' type='digital'>
+              <name>
+                <translation lang='en' text='I\/O Level Converters'/>
+              </name>
+            </containerLibraryElement>
+          </items>
+        </libraryFolder>
+        <libraryFolder _id='20'>
+          <name>
+            <translation lang='en' text='Extensions'/>
+          </name>
+          <items>
+            <libraryFolder _id='21'>
+              <name>
+                <translation lang='en' text='MC8I - Memory Extension Control'/>
+              </name>
+              <items>
+                <containerLibraryElement _id='22' uuid='437d1333-9f4a-4ddb-9801-fc12227835fe' type='digital'>
+                  <name>
+                    <translation lang='en' text='NoMC8I'/>
+                  </name>
+                </containerLibraryElement>
+                <containerLibraryElement _id='23' uuid='a2664318-c5a5-4f2b-8c96-3c471e7a7a4e' type='digital'>
+                  <name>
+                    <translation lang='en' text='Memory Extension Control'/>
+                  </name>
+                </containerLibraryElement>
+                <containerLibraryElement _id='24' uuid='4db77c45-60bb-489e-9332-b78f7c125134' type='digital'>
+                  <name>
+                    <translation lang='en' text='MM8I'/>
+                  </name>
+                </containerLibraryElement>
+              </items>
+            </libraryFolder>
+            <libraryFolder _id='25'>
+              <name>
+                <translation lang='en' text='KE8I - Extended Arithmetic Element'/>
+              </name>
+              <items>
+                <containerLibraryElement _id='26' uuid='f460ae92-642c-4368-a4b8-3f5efacd4a24' type='digital'>
+                  <name>
+                    <translation lang='en' text='NoEAE'/>
+                  </name>
+                </containerLibraryElement>
+                <containerLibraryElement _id='27' uuid='9cece5ba-3ee8-450c-b277-0fe32d8601f3' type='digital'>
+                  <name>
+                    <translation lang='en' text='EAE Control'/>
+                  </name>
+                </containerLibraryElement>
+                <containerLibraryElement _id='28' uuid='9bd525e4-68db-495e-ad66-376eeccc47bb' type='digital'>
+                  <name>
+                    <translation lang='en' text='Multiplier, Quot &amp; Step Counter'/>
+                  </name>
+                </containerLibraryElement>
+              </items>
+            </libraryFolder>
+            <libraryFolder _id='29'>
+              <name>
+                <translation lang='en' text='KT8I - Time Sharing Option'/>
+              </name>
+              <items>
+                <containerLibraryElement _id='30' uuid='6e89edd1-98df-4c8a-ba8c-d6beff0e5d31' type='digital'>
+                  <name>
+                    <translation lang='en' text='NoKT8I'/>
+                  </name>
+                </containerLibraryElement>
+                <containerLibraryElement _id='31' uuid='6891a791-4a5f-42bc-81cf-eafa80f53d9f' type='digital'>
+                  <name>
+                    <translation lang='en' text='KT8I'/>
+                  </name>
+                </containerLibraryElement>
+              </items>
+            </libraryFolder>
+            <libraryFolder _id='32'>
+              <name>
+                <translation lang='en' text='KP8I - Power Failure Option'/>
+              </name>
+              <items>
+                <containerLibraryElement _id='33' uuid='49c427a0-d6bd-4aa1-8077-a72ed66a4596' type='digital'>
+                  <name>
+                    <translation lang='en' text='NoKP8I'/>
+                  </name>
+                </containerLibraryElement>
+              </items>
+            </libraryFolder>
+            <libraryFolder _id='34'>
+              <name>
+                <translation lang='en' text='DL8I - Serial Line Multiplexer'/>
+              </name>
+              <items>
+                <containerLibraryElement _id='35' uuid='e781c98c-da4a-4700-bc83-dda5f70b4ad6' type='digital'>
+                  <name>
+                    <translation lang='en' text='NoDL8I'/>
+                  </name>
+                </containerLibraryElement>
+              </items>
+            </libraryFolder>
+            <libraryFolder _id='36'>
+              <name>
+                <translation lang='en' text='MP8I - Parity'/>
+              </name>
+              <items>
+                <containerLibraryElement _id='37' uuid='1d3f4554-02f4-420d-b6d9-9f0c490bd301' type='digital'>
+                  <name>
+                    <translation lang='en' text='NoMP8I'/>
+                  </name>
+                </containerLibraryElement>
+              </items>
+            </libraryFolder>
+            <libraryFolder _id='38'>
+              <name>
+                <translation lang='en' text='KW8I - Real-Time Clock'/>
+              </name>
+              <items>
+                <containerLibraryElement _id='39' uuid='1d70f59d-b126-4006-9422-3572e1b508c7' type='digital'>
+                  <name>
+                    <translation lang='en' text='NoKW8I'/>
+                  </name>
+                </containerLibraryElement>
+              </items>
+            </libraryFolder>
+          </items>
+        </libraryFolder>
+        <libraryFolder _id='40'>
+          <name>
+            <translation lang='en' text='Peripherals'/>
+          </name>
+          <items>
+            <containerLibraryElement _id='41' uuid='ae20b139-0861-4707-ad28-0356bdf9faf6' type='digital'>
+              <name>
+                <translation lang='en' text='TTY'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='42' uuid='ea320154-4eec-47ed-ba8f-032b63310899' type='digital'>
+              <name>
+                <translation lang='en' text='UART TX'/>
+              </name>
+            </containerLibraryElement>
+          </items>
+        </libraryFolder>
+        <libraryFolder _id='43'>
+          <name>
+            <translation lang='en' text='DEC Symbols'/>
+          </name>
+          <items>
+            <containerLibraryElement _id='44' uuid='9748b08c-353e-477a-96c0-aed701f81b0e' type='digital'>
+              <name>
+                <translation lang='en' text='FF'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='45' uuid='712eb4cb-96e1-4e76-abc8-d278960db7c1' type='digital'>
+              <name>
+                <translation lang='en' text='FF-N'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='46' uuid='dd92e1c8-bf51-477c-bc30-de5c51ec9d15' type='digital'>
+              <name>
+                <translation lang='en' text='Add'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='47' uuid='54682986-9446-467b-875d-7bf3462ec5db' type='digital'>
+              <name>
+                <translation lang='en' text='D2000'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='48' uuid='a3e8809b-12ee-4894-a98d-37996b171768' type='digital'>
+              <name>
+                <translation lang='en' text='DVariable'/>
+              </name>
+            </containerLibraryElement>
+            <containerLibraryElement _id='49' uuid='b7347e2e-e461-4a10-8f4e-ffb5231c1947' type='digital'>
+              <name>
+                <translation lang='en' text='Amplifier'/>
+              </name>
+            </containerLibraryElement>
+          </items>
+        </libraryFolder>
+        <libraryFolder _id='50'>
+          <name>
+            <translation lang='en' text='Artwork'/>
+          </name>
+          <items>
+            <imageLibraryElement _id='51'>
+              <imageId>
+                <imageIdentification _id='52' uuid='312dbae6-3c7c-40c3-b86c-1cd22a15982e' type='SVG'>
+                  <name>
+                    <translation lang='en' text='pdp-8i-header'/>
+                  </name>
+                </imageIdentification>
+              </imageId>
+            </imageLibraryElement>
+            <imageLibraryElement _id='53'>
+              <imageId>
+                <imageIdentification _id='54' uuid='ae14ff2e-99b9-4e2b-9380-c144be12db0a' type='SVG'>
+                  <name>
+                    <translation lang='en' text='sw-white-0'/>
+                  </name>
+                </imageIdentification>
+              </imageId>
+            </imageLibraryElement>
+            <imageLibraryElement _id='55'>
+              <imageId>
+                <imageIdentification _id='56' uuid='22a5d604-41af-410c-9ed2-a3c0a3ef0ff5' type='SVG'>
+                  <name>
+                    <translation lang='en' text='sw-white-1'/>
+                  </name>
+                </imageIdentification>
+              </imageId>
+            </imageLibraryElement>
+            <imageLibraryElement _id='57'>
+              <imageId>
+                <imageIdentification _id='58' uuid='a826784c-fefd-4101-b0e7-535cea7de7be' type='SVG'>
+                  <name>
+                    <translation lang='en' text='sw-brown-0'/>
+                  </name>
+                </imageIdentification>
+              </imageId>
+            </imageLibraryElement>
+            <imageLibraryElement _id='59'>
+              <imageId>
+                <imageIdentification _id='60' uuid='c90765f2-119a-4114-8a5f-854b804f2768' type='SVG'>
+                  <name>
+                    <translation lang='en' text='sw-brown-1'/>
+                  </name>
+                </imageIdentification>
+              </imageId>
+            </imageLibraryElement>
+            <imageLibraryElement _id='61'>
+              <imageId>
+                <imageIdentification _id='62' uuid='fad0aa8b-dda8-426a-ad2c-2662b29cc476' type='SVG'>
+                  <name>
+                    <translation lang='en' text='key-off'/>
+                  </name>
+                </imageIdentification>
+              </imageId>
+            </imageLibraryElement>
+            <imageLibraryElement _id='63'>
+              <imageId>
+                <imageIdentification _id='64' uuid='18bbc0ed-4c80-4b4d-9965-26bbaf834945' type='SVG'>
+                  <name>
+                    <translation lang='en' text='key-on'/>
+                  </name>
+                </imageIdentification>
+              </imageId>
+            </imageLibraryElement>
+          </items>
+        </libraryFolder>
+      </items>
+    </libraryFolder>
+  </folder>
+</project>

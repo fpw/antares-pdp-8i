@@ -1,4 +1,4 @@
-# A PDP-8/I implementation in Antares
+# A PDP-8/I Implementation in Antares
 
 This project is a transcription of the PDP-8/I circuit as given in [volume II of the maintenance manual](https://bitsavers.org/pdf/dec/pdp8/pdp8i/DEC-8I-HR2A-D_8Imaint_May70.pdf) into the [Antares](https://www.antarescircuit.io/) digital logic simulator.
 
@@ -15,6 +15,31 @@ Antares allows connecting a virtual oscilloscope to any signal, simply create a 
 
 # General PDP-8 Information
 Short introduction coming soon.
+
+# Status
+
+| CPU Extension | Description | Implemented
+|---------------|-------------|-------
+| MC8/I | Memory Extension | ✅
+| KE8/I | Arithmetic Extension | ✅
+| KT8/I | Time Sharing Option | ✅
+| KP8/I | Power Failure Option | ❌
+| DL8/I | Serial Line Multiplexer | ❌
+| MP8/I | Memory Parity | ❌
+| KW8/I | Real Time Clock | ❌
+
+The implementation passes the follow MAINDECs diagnostic programs:
+
+| Program | What's tested | Pass
+|-----------------|---------------|--
+| maindec-8i-d01c | AND, TAD, OPR | ✅
+| maindec-8i-d02b | DCA, auto-indexing, indirect addressing, interrupts  | ✅
+| maindec-08-d04b | JMP | ✅
+| maindec-08-d05b | JMS | ✅
+| maindec-08-d07b | ISZ | ✅
+| maindec-08-d0aa | EAE without DVI, MUY | ✅
+| maindec-08-d0ba | DVI, MUY | ✅
+| maindec-08-d1gd | Memory Extension | ✅
 
 # Why?
 

@@ -5,7 +5,7 @@ This project is a transcription of the PDP-8/I circuit as given in [volume II of
 ![original schematic](screenshots/console.png)
 
 # How to use
-Clone the repository, open the `antares-workspace` as a workspace in Antares, then open the PDP-8/I project inside that workspace.
+Clone the repository, open the `antares-workspace` directory as a workspace in Antares, then open the PDP-8/I project inside that workspace.
 
 There are some example programs in the `programs` directory that can be imported into the emulated core memory.
 
@@ -28,7 +28,7 @@ Short introduction coming soon.
 | MP8/I | Memory Parity | ❌
 | KW8/I | Real Time Clock | ❌
 
-The implementation passes the follow MAINDECs diagnostic programs:
+The implementation passes the following MAINDECs diagnostic programs:
 
 | Program | What's tested | Pass
 |-----------------|---------------|--

@@ -49,7 +49,7 @@
                 <rectangle _id='34' id='160' style='figure' filled='true' stroked='true' x='-1092.0' y='-238.0' w='455.0' h='203.0'/>
               </component>
             </graphElement>
-            <subGraphVerticeViewRef _id='35' id='1' rot='0' filled='true' stroked='true' modelId='3' x='-1848.0' y='-1071.0' controlViewVisibility='simulation'/>
+            <subGraphVerticeViewRef _id='35' id='1' rot='0' filled='true' stroked='true' modelId='3' x='-1848.0' y='-1071.0' controlViewVisibility='always'/>
             <subGraphVerticeViewRef _id='36' id='2' rot='0' filled='true' stroked='true' modelId='4' x='-1036.0' y='-301.0' controlViewVisibility='simulation'/>
             <subGraphVerticeViewRef _id='37' id='3' rot='0' filled='true' stroked='true' modelId='5' x='-1106.0' y='-301.0' controlViewVisibility='simulation'/>
             <subGraphVerticeViewRef _id='38' id='4' rot='0' filled='true' stroked='true' modelId='6' x='-1078.0' y='-175.0' controlViewVisibility='simulation'/>
@@ -65,7 +65,7 @@
             <subGraphVerticeViewRef _id='48' id='66' rot='0' filled='true' stroked='true' modelId='16' x='-1071.0' y='49.0' controlViewVisibility='simulation'/>
             <subGraphVerticeViewRef _id='49' id='67' rot='0' filled='true' stroked='true' modelId='17' x='-1001.0' y='49.0' controlViewVisibility='simulation'/>
             <subGraphVerticeViewRef _id='50' id='123' rot='0' filled='true' stroked='true' modelId='18' x='-1071.0' y='119.0' controlViewVisibility='simulation'/>
-            <subGraphVerticeViewRef _id='51' id='156' rot='0' filled='true' stroked='true' modelId='19' x='-1848.0' y='-315.0' controlViewVisibility='simulation'/>
+            <subGraphVerticeViewRef _id='51' id='156' rot='0' filled='true' stroked='true' modelId='19' x='-1848.0' y='-315.0' controlViewVisibility='always'/>
             <subGraphVerticeViewRef _id='52' id='157' rot='0' filled='true' stroked='true' modelId='20' x='-1057.0' y='175.0' controlViewVisibility='simulation'/>
             <subGraphVerticeViewRef _id='53' id='158' rot='0' filled='true' stroked='true' modelId='21' x='-987.0' y='175.0' controlViewVisibility='simulation'/>
             <graphElement _id='54' modelId='23' id='161'>
